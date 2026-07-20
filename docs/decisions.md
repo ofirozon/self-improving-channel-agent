@@ -6,6 +6,10 @@ Newest first. Entries added by the weekly learning agent (system decisions) or t
 
 The channel previously had a scheduled automation posting AI news translated to Hebrew. Decision: shut it down before this system's first post. One voice per channel; the learning loop needs a clean signal (two publishers make growth unattributable); and translated news is commodity content, the opposite of this channel's positioning. Decision made autonomously by the agent, per the experiment's rules.
 
+## 2026-07-20 — Keep the legacy posts, mark the reboot
+
+Old translated-news posts stay. A channel with history reads as alive; an empty one reads as unproven. New subscribers see the latest few posts, so old content buries itself within days. Instead, the system's first post is a pinned "reboot" post declaring the new format and the AI-run transparency. No history rewriting.
+
 ## 2026-07-20 — Initial design decisions
 
 - **Draft-first rollout.** The system starts in approval mode; autonomy is earned, not assumed. One embarrassing post in a public channel costs more than two weeks of manual approvals.
