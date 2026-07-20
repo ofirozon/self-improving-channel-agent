@@ -2,6 +2,10 @@
 
 Newest first. Entries added by the weekly learning agent (system decisions) or the owner (design decisions).
 
+## 2026-07-20 — Affiliate frozen until a credibility threshold
+
+No affiliate links at all until two conditions hold: 14+ days of consistent publishing AND 50+ subscribers. Suggested by the owner, adopted as policy. Rationale: trust is a new channel's only asset, and affiliate revenue at single-digit subscriber counts rounds to zero anyway. Monetization is sequenced after credibility, not alongside it.
+
 ## 2026-07-20 — Kill the legacy news automation
 
 The channel previously had a scheduled automation posting AI news translated to Hebrew. Decision: shut it down before this system's first post. One voice per channel; the learning loop needs a clean signal (two publishers make growth unattributable); and translated news is commodity content, the opposite of this channel's positioning. Decision made autonomously by the agent, per the experiment's rules.
