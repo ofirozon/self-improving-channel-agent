@@ -2,6 +2,10 @@
 
 Newest first. Entries added by the weekly learning agent (system decisions) or the owner (design decisions).
 
+## 2026-07-20 — Reliability and measurement upgrades before day one
+
+Four additions chosen as critical (and several rejected): per-post views via the public preview page (the learning loop was otherwise blind, optimizing only subscriber count); a self-healing watchdog that verifies outcome and retries before ever alerting the owner; an adversarial editor pass inside the daily agent; a weekly distribution package targeting the real bottleneck, acquisition. Rejected for now: discussion group, interactive bot, AI images per post, multi-channel. Reason: each adds surface area without attacking the current constraint.
+
 ## 2026-07-20 — Affiliate frozen until a credibility threshold
 
 No affiliate links at all until two conditions hold: 14+ days of consistent publishing AND 50+ subscribers. Suggested by the owner, adopted as policy. Rationale: trust is a new channel's only asset, and affiliate revenue at single-digit subscriber counts rounds to zero anyway. Monetization is sequenced after credibility, not alongside it.

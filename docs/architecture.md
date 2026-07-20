@@ -15,6 +15,10 @@
 | Writing guidelines file | The system's "prompt DNA". Versioned, with a changelog. An immutable "hard rules" section the learning loop may not touch. |
 | Experiment log | One experiment at a time: hypothesis, metric, decision threshold, result, decision. |
 | Publish script | Thin shell wrapper over the Bot API with a final guardrail check before sending. |
+| Views scraper | The Bot API hides per-post views, but the channel's public preview page exposes them. A small scraper turns that into the system's primary engagement signal. |
+| Watchdog (21:45) | Checks *outcome*, not process: does today's post file exist? If not, it re-runs the daily agent once (self-heal) and only alerts the owner after a double failure, with the log tail attached. |
+| Editor pass | Inside the daily agent: the model adversarially reviews its own draft as a skeptical editor (hook strength, source-backing, length, house rules) before anything is saved or sent. |
+| Distribution package | Weekly: the strongest post of the week becomes a ready-to-paste share text plus concrete suggested targets, feeding the owner's 15 weekly minutes where they matter most. |
 
 ## Human in the loop
 
