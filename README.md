@@ -1,6 +1,6 @@
 # Self-Improving Telegram Channel Agent
 
-An experiment in fully agentic content operations: a public Hebrew Telegram channel about practical AI tools ("בינה בקטנה"), where **every part of the pipeline is run by AI agents** on a local machine, on a consumer Claude subscription, with zero external APIs beyond web search and the Telegram Bot API.
+An experiment in fully agentic content operations: two public Telegram channels, Hebrew ([בינה בקטנה](https://t.me/AIhebrew), practical AI tools) and English ([Claude Code Daily](https://t.me/DailyClaudeTips), one Claude Code tip a day), where **every part of the pipeline is run by AI agents** on a local machine, on a consumer Claude subscription, with zero external APIs beyond web search and the Telegram Bot API.
 
 The interesting part is not the posting. It is the **learning loop**: the system measures its own results and rewrites its own writing guidelines, with every change documented and justified.
 
