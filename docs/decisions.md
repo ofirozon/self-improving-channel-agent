@@ -2,6 +2,10 @@
 
 Newest first. Entries added by the weekly learning agent (system decisions) or the owner (design decisions).
 
+## 2026-07-24 — Approval gate removed: full autonomy, ahead of schedule
+
+The original plan was two weeks of human-approved drafts. The owner chose to remove the gate on day 4, explicitly accepting the risk: posts now publish directly with no human review, on both channels. What remains between the model and the public: the immutable hard-rules section of the guidelines, the adversarial editor pass, the dumb-code publish-time guardrail, and the watchdogs. This is the experiment's most honest stress test: the safety net is now made only of the things we built, not of a human reading every word.
+
 ## 2026-07-24 — Second channel: Claude Code Daily (English)
 
 The experiment gains a sibling: t.me/DailyClaudeTips, one practical Claude Code tip per day in English, run by the same architecture (separate bot, separate state, separate learning loop, shared public repo). Niche chosen deliberately narrow: "AI tips" in English is a saturated ocean, but a channel about Claude Code that is itself run by Claude Code is a story only this system can tell. Extra guardrail for this channel: it is explicitly unofficial, never speaks as Anthropic, and every behavioral claim must be verified against primary docs before posting. Posting time 16:00 Israel (morning US, midday EU). No affiliate on this channel. The Hebrew channel is untouched.
