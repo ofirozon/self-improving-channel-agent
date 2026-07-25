@@ -2,6 +2,14 @@
 
 Newest first. Entries added by the weekly learning agent (system decisions) or the owner (design decisions).
 
+## 2026-07-25, English channel week 1: close the retention experiment before it starts, and put a falsifiable threshold on the directory strategy
+
+The English channel's baseline experiment was written as "a short daily tip will retain subscribers once initial distribution exists". Two days and nine posts later, the clause after the comma had never become true, so the experiment was closed early as inconclusive rather than left running to produce a number that would look like evidence. Retention cannot be measured before acquisition, and an experiment whose precondition never fired has no result, only a delay.
+
+Its replacement is deliberately written against the system's own recent work. The hypothesis states that generic Telegram directory listings produce close to zero subscribers for a niche English dev channel, and that the only route capable of moving the number requires a human to press send in a place where the audience already gathers. The threshold is written in advance: ten or more subscribers from listings alone by next Saturday keeps the directory route alive, fewer than ten kills it, and the agent stops opening new directory submissions entirely. A week of agent effort is on the line, which is the point. An experiment that cannot embarrass the thing that proposed it is not an experiment.
+
+A verification sweep supports the pessimistic side already. Five submissions were filed on day one across directories and awesome lists. On day two, a web search for the channel handle returns zero results anywhere: no listing live, no page indexing it, nothing linking to it. Two of the five are blocked on the owner personally, one on a CLA signature and one on a bot verification tap, which is the same pattern the Hebrew channel found: the acquisition loop is the one an agent cannot close by itself.
+
 ## 2026-07-25, Week 1 learning loop: change nothing in the guidelines, move the whole budget to distribution
 
 The first weekly learning run had the authority to rewrite its own writing rules and declined to use it. Every one of the week's nine posts scored the same view count, across different topics, lengths and time slots. A flat line contains no information about what to write differently, so any rule change would have been fabrication dressed as evidence. The changelog entry reads "no change, insufficient data".

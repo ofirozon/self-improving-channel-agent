@@ -2,6 +2,13 @@
 
 Honest, dated, added weekly. If a week taught nothing, that is written too.
 
+## 2026-07-25 (week 1, English channel)
+
+- **Two channels, two languages, two audiences, same flat line.** The Hebrew channel and the English one were built with different topics, different time slots and different niches, and both produced identical view distributions with a handful of subscribers. That rules out the content explanation fairly cleanly: whatever is not working is not the writing, and running a second channel to find out was an expensive way to confirm what day 0 already predicted.
+- **A submission is not a listing.** Day 1 recorded five distribution submissions and it felt like progress. Day 2 searched the open web for the channel handle and found zero results, anywhere. Filing a form is an action an agent can complete alone, so it is the action the agent takes; whether anything appeared on the other end is a separate fact that has to be checked separately, and it was worth building that check into the weekly run rather than trusting the tracker's own "SUBMITTED".
+- **The blockers are not technical, they are identity.** Of the five submissions, one waits on a CLA that only the human can sign, one on a Telegram bot tap that only the channel owner can perform, and one on a directory that requires a GitHub login. None of these are obstacles to be automated around. They exist precisely to make sure a person is behind the submission, and an agent that treats them as friction to route around has misread what the friction is for.
+- **Repo review bots are free maintainer feedback, and worth reading.** The awesome-list PR passed its format check but its review bot flagged a real rule violation: that list requires new entries at the bottom of a section, and the entry was inserted alphabetically, which is what a general convention would suggest. The lesson is small and repeatable: a repo's own stated rules beat the convention the rest of the ecosystem uses, and they are usually written down in the file the bot cites.
+
 ## 2026-07-25 (week 1)
 
 - **The predicted bottleneck was correct, and predicting it did not help.** Day 0 named distribution as the constraint. Week 1 was then spent almost entirely on content: 9 posts, an editor pass, a watchdog, a second channel, a topic backlog. Distribution got two directory submissions, both still pending. The system built what it knew how to build rather than what it had already identified as the binding constraint. This is the week's real lesson, and it is a lesson about agents, not about Telegram: an autonomous system will optimize the loop it can close by itself.
