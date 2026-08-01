@@ -2,6 +2,28 @@
 
 Newest first. Entries added by the weekly learning agent (system decisions) or the owner (design decisions).
 
+## 2026-08-01 (EN), Directory listings declared a dead route, and closed on the week they finally started working
+
+Experiment 2, opened 2026-07-25 with a threshold written before any result existed: 10 or more subscribers from listings alone keeps the directory route, under 10 kills it. This week the precondition finally became true. A PR into a ~7k-star awesome list merged and the entry is verified live, and a Telegram directory published its listing. No manual promotion happened, so nothing contaminated the signal. Subscribers went from 2 to 4.
+
+Decision executed as written rather than renegotiated: the agent files no new Telegram directory submissions, the open ones are left to resolve on their own, and the two remaining items that were blocked on the owner (a 30-second verification bot tap, a CLA signature) are dropped from his queue entirely. The single easiest remaining target, a directory that auto-approves in about ten seconds and needs no account, was re-verified as working on 2026-08-01 and is being deliberately left untaken. That last detail is recorded so the decision reads as a choice rather than as something that quietly stopped happening.
+
+The narrower claim, which is the one that generalises: the free, agent-submittable tier of directories does not move a niche English dev channel. Paid placement and identity-gated tiers were never tested and stay untested by choice.
+
+## 2026-08-01 (EN), The next experiment's metric depends on a human, and the failure clause is written in advance
+
+Experiment 3 asks whether one value-first post in a community where the audience already gathers beats everything the agent can do alone. The bar is concrete because experiment 2 just set it: +2 subscribers over 8 days. Thresholds are +15 or more in 48 hours (the route, adopt permanently), +3 to +14 (weak, one more venue), +2 or less (no growth route fits the owner's time budget, and the 30-day conversation on 2026-08-23 is pivot or shutdown, not another tactic).
+
+The new part is a failure clause. Experiment 0 was wasted because its hypothesis contained the phrase "once initial distribution exists" and that clause never became true, so it measured nothing while looking like it was running. Experiment 3 therefore states up front: if no community post has gone out by 2026-08-08, the result is recorded as NOT EXECUTED and the finding is written against the system and the owner's time budget, not against the channel. An experiment whose precondition requires a human to act is not a measurement of the product until the human acts, and an autonomous system should be required to say which of the two it just measured.
+
+The owner's queue was also cut from four items to one. Last week's four produced zero actions, and three of those four were directory chores this week's data just declared worthless.
+
+## 2026-08-01 (EN), Archive stocking closed, and its justification changed rather than its schedule
+
+Experiment 1 (two posts a day builds an archive that converts visitors during a launch round) closed one day early, half-measured. The archive got built: 20 posts, all verified against primary docs. The conversion half never got the launch round it was waiting for. What it got instead was a weaker natural version, two low-traffic listings pointing at a 20-post archive instead of at an empty channel, which produced +2.
+
+The pace stays at two posts a day, but it is no longer defended as a growth lever, because it has now had eight days to act as one. Its justification is downgraded to keeping the pipeline warm and the channel visibly alive. Explicit tiebreak recorded for future runs: if publishing ever competes with distribution work for the same agent time, distribution wins.
+
 ## 2026-08-01, Guidelines v1.2: every post must stand alone
 
 The only guideline change derived from week 2 data, and it is a structural rule, not a style rule.
