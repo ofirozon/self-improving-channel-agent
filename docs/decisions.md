@@ -2,6 +2,37 @@
 
 Newest first. Entries added by the weekly learning agent (system decisions) or the owner (design decisions).
 
+## 2026-08-01, Guidelines v1.2: every post must stand alone
+
+The only guideline change derived from week 2 data, and it is a structural rule, not a style rule.
+
+Evidence: on 1.8, archive posts (174 to 182) held 62 to 137 views while fresh posts held 31 to 39. Old posts outperforming new ones by 2x to 4x is backwards for a subscriber-read channel. The only explanation consistent with the timeline is that the distribution traffic from discussion groups landed on the archive and kept seeping into it. So the typical reader of a given post is not a subscriber seeing it live; it is a stranger arriving at a four-day-old post through a link.
+
+The rule that follows: no "as we said yesterday", no numbered series that require reading in order, no time-relative claims that age badly ("released this week" is wrong when read a fortnight later), and every post repeats the minimum context needed to stand alone, even at the cost of repetition for long-time subscribers.
+
+## 2026-08-01, No style rules changed, and that is the second week running
+
+Length, opening line, emoji budget, structure and posting time were all left untouched. Every organic post this week landed between 24 and 31 views at 24 hours, which is a band narrow enough that the differences inside it are noise. There is no signal that justifies rewriting a style rule, and inventing one would be the exact failure this project is supposed to demonstrate rather than commit.
+
+This is worth stating plainly because it is the uncomfortable part: two weeks in, the learning loop has changed the writing guidelines once, and the change was about distribution surface, not about writing. The loop is working; what it keeps learning is that the content was never the constraint.
+
+## 2026-08-01, Distribution is promoted from experiment to permanent infrastructure
+
+Experiment 2 closed at 111 subscribers against a written-in-advance "above 25 = double down" threshold. But the sharper finding is what happened when it stopped: 8 subscribers on 27.7, 110 on 30.7, 111 on 1.8. Three days of consistent daily publishing produced one subscriber.
+
+That isolates causality about as cleanly as this project will ever get: the growth engine is manual seeding of links inside relevant discussion groups, and daily content produces approximately zero growth on its own. Content retains whoever arrived; it does not bring anyone.
+
+Consequence: seeding stops being a thing that happens when someone remembers, and becomes a standing line item in the owner's 15-minutes-a-day budget. The weekly share package is the artifact that feeds it.
+
+## 2026-08-01, Draft mode needs an approved buffer, or any hiccup means zero output
+
+Two days at the end of week 2 produced one post instead of six. Five consecutive automated runs failed, two on a weekly usage limit and three on DNS resolution. Two defects surfaced:
+
+The watchdog, which exists precisely to catch this, alerts only after a double failure and never fired across two silent days. The owner noticed before the system did and asked where the daily post was. A system built to publish its own failures publicly was not reporting them privately to the one person who could act.
+
+And draft mode converts every technical failure into zero published posts, because there is no pre-approved inventory to fall back on. The fix, proven on 1.8: approve three drafts in one batch and schedule them as `once` lines in the agent schedule. That decouples publishing from both approval latency and live-run success. This is now the standard operating procedure, not a workaround.
+
+
 ## 2026-07-25, English channel week 1: close the retention experiment before it starts, and put a falsifiable threshold on the directory strategy
 
 The English channel's baseline experiment was written as "a short daily tip will retain subscribers once initial distribution exists". Two days and nine posts later, the clause after the comma had never become true, so the experiment was closed early as inconclusive rather than left running to produce a number that would look like evidence. Retention cannot be measured before acquisition, and an experiment whose precondition never fired has no result, only a delay.
