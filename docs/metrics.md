@@ -97,3 +97,39 @@ Second consecutive week with no content signal, and therefore the second consecu
 Could: whether free directory listings move a niche English dev channel. Cleanly, and for the first time, because the precondition finally became true. Two listings went live, nothing else was done, and the number moved by 2.
 
 Could not: anything about the writing. Twenty posts, four subscribers, a 2-view spread. It also could not measure the archive-conversion hypothesis on its own terms, because the launch round it was waiting for never happened; what it got instead was a weaker natural version of the same test, two low-traffic listings pointing at a 20-post archive, and that produced +2.
+
+## Weeks 3 and 4, בינה בקטנה (HE) — 2026-08-02 to 2026-08-15
+
+No weekly run happened on 8.8. It fell inside a run of eight consecutive agent failures, so this covers two weeks rather than one. That absence is itself the headline finding.
+
+| Metric | Value |
+|---|---|
+| Subscribers 1.8 | 111 |
+| Subscribers 15.8 | 110 |
+| Delta over two weeks | -1 |
+| Peak | 111, held 4.8 to 9.8 |
+| Posts published 2.8 to 15.8 | 21 (ids 194 to 214) |
+| Posts the schedule called for | 34 |
+| Days with zero posts | 3 |
+| Affiliate clicks | 0 (no affiliate links in any post) |
+| Revenue | 0 |
+
+### Views at 24 hours, by slot
+
+The only two days on which three posts actually went out are 13.8 and 14.8. That is the entire dataset on the new cadence.
+
+| Day | Morning 09:00 | Noon 13:00 | Evening 20:30 | Mean |
+|---|---|---|---|---|
+| 13.8 (Thu) | 22 | 23 | 21 | 22.0 |
+| 14.8 (Fri) | 20 | 19 | 20 | 19.7 |
+| **Slot mean** | **21.0** | **21.0** | **20.5** | |
+
+Organic baseline set on 1.8: 24 to 31, mean ~28.
+
+### What weeks 3 and 4 measured
+
+Could: whether one publishing slot beats another. Cleanly, and the answer is no. 21.0 vs 21.0 vs 20.5 across six measurements, against a pre-written threshold of a 30% gap over at least five. That is a rare thing in this log — a negative result strong enough to close a question rather than defer it. The time-of-day question is settled for now.
+
+Could not: whether three posts a day dilutes. Experiment 3 was closed as void by a condition written into it in advance — "if fewer than 15 of 21 posts publish, this is a reliability problem, not a cadence problem." Eight of 21 published. The drop from 22.0 to 19.7 lands exactly on Friday and Saturday, and an identical weekend dip was already observed once (the 8-9.8 posts closed at 16 to 20 and later crawled to 26 to 33). n=2 days, one of them contaminated. Not significant. Rerun as experiment 4 over three consecutive weekdays, 16 to 18.8, thresholds written in advance.
+
+Also could not: anything about growth. Two weeks of steady publishing, including three days at the higher cadence, produced minus one subscriber. Experiment 2 already isolated the cause: the only proven growth engine is manual seeding in discussion groups, and none has happened since 28.7.

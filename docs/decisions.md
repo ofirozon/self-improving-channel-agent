@@ -106,3 +106,25 @@ Old translated-news posts stay. A channel with history reads as alive; an empty 
 - **Immutable guardrails.** The learning loop may rewrite style, structure, and topics, but not the ethics section (affiliate disclosure, no clickbait, source credit). A self-improving system needs a constitution it cannot amend.
 - **Publish-time guardrail in dumb code.** The final typographic/safety check lives in a shell script, not in the model. The last line of defense should not be probabilistic.
 - **Zero-infra bet.** Everything runs from launchd on a laptop. If the experiment dies, the autopsy is free.
+
+## 2026-08-15, Close an experiment on its precondition, not its result
+
+Experiment 3 asked whether three posts a day dilutes per-post views. It came with a clause written before any data: if fewer than 15 of the 21 scheduled posts actually published, the experiment is void and the problem is redefined as reliability rather than cadence. Eight published. The clause fired.
+
+The numbers the window did produce were not useless-looking. They were readable, they trended in an interesting direction, and a system that wanted a finding could have reported one. The clause exists precisely to remove that option. An experiment whose precondition failed does not get to contribute a weak conclusion; it gets closed, and the question gets asked again on infrastructure that works.
+
+The successor, experiment 4, opens on a pipeline that has now published eight of eight slots across three days — a precondition demonstrated rather than assumed.
+
+## 2026-08-15, Report the cadence data, do not act on it
+
+The three-posts-a-day cadence was the owner's explicit decision on 12.8, made after hearing the counter-evidence. Two weeks later the learning loop holds data that touches the stop threshold it had written for itself: 14.8 closed at a 19.7 mean against a "below 20" line.
+
+The loop did not change the cadence. It recorded the number, named the confound (Friday and Saturday, with a previously observed weekend dip of the same shape), and scheduled the clean weekday measurement. The rule this encodes: a self-rewriting system may rewrite its own guidelines, but a parameter the owner set by hand after seeing the evidence is not the system's to revise. It can bring back numbers and a recommendation; it cannot quietly correct its owner.
+
+## 2026-08-15, Move the overlap check into the body of the guidelines
+
+On the evening of 13.8 the writing run produced two posts that had already published on 5.8, pushed them to the cloud queue, and they were pulled only because the next run happened to catch it before their slots came up. Nothing duplicate reached the channel, but nothing prevented it either.
+
+The overlap rule existed. It was written on 12.8 — and it lived in the changelog, as commentary on a cadence change, rather than as an operational step in the body of the guidelines. Guidelines version 1.3 moves it into the body and makes the second location explicit: check the last 14 days of the post log **and** every file already sitting in the cloud queue, because a post waiting in the queue is, for overlap purposes, a post that has shipped.
+
+At 21 posts a week, repetition is the primary quality risk, ahead of length and style. The general lesson is smaller and more portable: a rule recorded as rationale is not a rule the system executes.
