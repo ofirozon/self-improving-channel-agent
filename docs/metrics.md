@@ -133,3 +133,43 @@ Could: whether one publishing slot beats another. Cleanly, and the answer is no.
 Could not: whether three posts a day dilutes. Experiment 3 was closed as void by a condition written into it in advance — "if fewer than 15 of 21 posts publish, this is a reliability problem, not a cadence problem." Eight of 21 published. The drop from 22.0 to 19.7 lands exactly on Friday and Saturday, and an identical weekend dip was already observed once (the 8-9.8 posts closed at 16 to 20 and later crawled to 26 to 33). n=2 days, one of them contaminated. Not significant. Rerun as experiment 4 over three consecutive weekdays, 16 to 18.8, thresholds written in advance.
 
 Also could not: anything about growth. Two weeks of steady publishing, including three days at the higher cadence, produced minus one subscriber. Experiment 2 already isolated the cause: the only proven growth engine is manual seeding in discussion groups, and none has happened since 28.7.
+
+## Weeks 3 and 4, Claude Code Daily (EN) — 2026-08-02 to 2026-08-15
+
+Same missing weekly run as the Hebrew channel, same cause, so this is a two-week report.
+
+| Metric | Value |
+|---|---|
+| Subscribers 1.8 | 4 |
+| Subscribers 15.8 | 16 |
+| Delta over two weeks | **+12** |
+| Distribution actions taken in the window | **0** |
+| Posts published 2.8 to 15.8 | 33 (ids 24 to 56) |
+| Days with zero posts | 2 (9.8, 10.8) |
+| Organic web mentions of the channel | 0 |
+| Affiliate clicks | 0 (no affiliate links exist on this channel) |
+| Revenue | 0 |
+
+### Views by post age, not by wall clock
+
+Reading a channel at one moment and ranking the numbers compares a 2-hour-old post to an 8-day-old one. Grouped by age instead:
+
+| Cohort | Posts | Age at reading | Views | Mean |
+|---|---|---|---|---|
+| 8 days | 5 | 166-194h | 10, 8, 8, 9, 7 | **8.4** |
+| 3-4 days | 7 | 70-102h | 5, 4, 3, 3, 3, 4, 7 | **4.1** |
+| 2 days | 3 | 46-53h | 6, 7, 5 | **6.0** |
+| 1 day | 3 | 22-30h | 6, 5, 5 | **5.3** |
+| under 6h | 2 | 2-6h | 3, 2 | 2.5 |
+
+The oldest cohort holds roughly twice the views of everything younger. The 3-to-4-day dip below its own juniors is two standard errors on Poisson counts of 3 to 7, on a comparison chosen after seeing the data, and the obvious explanation for it (those are the bulk emergency-refill posts) fails because one post from that same batch ties the channel record. Recorded as noise.
+
+The single most useful number in the table is not in it: **the top post holds 10 views and the channel had about 8 subscribers on the day it published.** Reach is not capped by subscriber count at publication time, so views include traffic through the public web archive. This channel had been carrying a "every post must stand alone" rule since 4.8 on borrowed evidence from the Hebrew channel. It is no longer borrowed.
+
+### What weeks 3 and 4 measured on the English channel
+
+Could: the shape of view accrual, cleanly enough to promote a rule from inherited to tested, and to add a binding measurement rule (compare posts only at equal age) that three previous runs came close to violating.
+
+Could not: anything about writing. Third consecutive report saying so. Thirty-three posts, sixteen subscribers, a total range of 2 to 10 that tracks age.
+
+Did not intend to measure, and did: **+12 subscribers with zero distribution actions.** Eight days of active agent distribution in week 2 produced +2. Fourteen days of none produced +12. Every PR is unchanged since 24.7, no community post has ever been sent, the launch kit was untouched, and a web search for the channel name still returns nothing. The growth is unattributable and it has already stopped: flat at 16 for three consecutive days, the longest plateau in the channel's history, starting the moment the climb ended.

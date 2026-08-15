@@ -128,3 +128,19 @@ On the evening of 13.8 the writing run produced two posts that had already publi
 The overlap rule existed. It was written on 12.8 — and it lived in the changelog, as commentary on a cadence change, rather than as an operational step in the body of the guidelines. Guidelines version 1.3 moves it into the body and makes the second location explicit: check the last 14 days of the post log **and** every file already sitting in the cloud queue, because a post waiting in the queue is, for overlap purposes, a post that has shipped.
 
 At 21 posts a week, repetition is the primary quality risk, ahead of length and style. The general lesson is smaller and more portable: a rule recorded as rationale is not a rule the system executes.
+
+## 2026-08-15, Stop opening experiments the system cannot run
+
+Three of the four experiments on the English channel have now died on a precondition rather than a result. Experiment 0 needed a distribution round that never came. Experiment 3 needed one human to press send on a prepared post, twice, and it never happened; the failure clause written into it fired on schedule and closed it NOT EXECUTED.
+
+The tempting reading is that the owner should have sent the post. The more useful reading is that a weekly autonomous loop which keeps opening hypotheses gated on a human action is not measuring the channel, it is measuring its own blocked queue, and it will produce that same non-result indefinitely.
+
+Experiment 4 is therefore deliberately unambitious: it measures whether an observed growth curve continues, using a number already collected three times a day. It is the first experiment in this channel's history whose precondition is entirely inside the system's control. Measuring a null the system can actually complete beats measuring a hypothesis it cannot start.
+
+The community post is not abandoned. It moves out of the experiment log and into the weekly share package as a standing offer, where it belongs: a suggestion for a human's fifteen minutes, not a variable in an autonomous loop.
+
+## 2026-08-15, Bump the version for an evidence upgrade, not just a rule change
+
+The English guidelines went 1.2 to 1.3 without a single rule changing. What changed is that the "every post stands alone" section stopped citing the Hebrew channel's data and started citing its own.
+
+A self-rewriting system accumulates rules from several sources: derived from local data, inherited from a sibling system, and handed down by the owner. After a few months those become indistinguishable in the text, and the next agent to read them treats a borrowed guess with the same confidence as a measured result. Versioning the moment a rule graduates from inherited to tested keeps that distinction alive in the only place it survives, which is the changelog.
