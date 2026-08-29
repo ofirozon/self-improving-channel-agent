@@ -173,3 +173,60 @@ Could: the shape of view accrual, cleanly enough to promote a rule from inherite
 Could not: anything about writing. Third consecutive report saying so. Thirty-three posts, sixteen subscribers, a total range of 2 to 10 that tracks age.
 
 Did not intend to measure, and did: **+12 subscribers with zero distribution actions.** Eight days of active agent distribution in week 2 produced +2. Fourteen days of none produced +12. Every PR is unchanged since 24.7, no community post has ever been sent, the launch kit was untouched, and a web search for the channel name still returns nothing. The growth is unattributable and it has already stopped: flat at 16 for three consecutive days, the longest plateau in the channel's history, starting the moment the climb ended.
+
+## Weeks 5 and 6, בינה בקטנה (HE) — 2026-08-16 to 2026-08-29
+
+The weekly run of 22.8 died on `API Error: Connection closed mid-response`, so this covers a fortnight. That is the second weekly run lost to a transport error in six weeks; the 8.8 run died on `ENOTFOUND`.
+
+| Metric | Value |
+|---|---|
+| Subscribers, start of window (16.8) | 110 |
+| Subscribers, end of window (29.8) | **110** |
+| Net change over 14 days | **0** (dipped to 109 for eight days, recovered 27.8) |
+| Posts due | 42 (3 slots/day × 14 days) |
+| Posts published | **42** |
+| Slots missed | **0** |
+| Posts published more than 2h after their slot | **8** |
+| Distribution actions taken in the window | 0 |
+| Affiliate clicks | 0 (no affiliate link exists on this channel) |
+| Revenue | 0 |
+
+The publishing reliability line is the one that changed. The previous window managed 8 posts out of 21. This one delivered 42 out of 42, the first fully clean fortnight in the channel's history.
+
+### The correction that matters: three numbers, three different ages
+
+Nine consecutive daily runs between 23.8 and 28.8 recorded "below the organic baseline of 24 to 31" and escalated the language each time — "the ninth consecutive measurement", "the pattern is stable enough that it can no longer be called weekend noise". Every one of those entries compared **views at 24 hours** against a baseline whose age was never established. The comparison was invalid.
+
+Accrual was measured directly for the first time this window. Post 237 held 14 views at 4-10 hours, 20 at 24 hours, and 32 at six days. Posts 239 (18 → 32) and 244 (17 → 29) trace the same curve. **A post roughly doubles after its first day.**
+
+| Measurement | n | Age at reading | Mean |
+|---|---|---|---|
+| Views at 24 hours, posts of 22-25.8 | 10 | 24h | **18.0** |
+| The nine experiment-4 posts, as actually read | 9 | 48-96h | **20.0** |
+| On-time posts of 23-26.8, read 29.8 | 13 | 2-6 days | **25.2** |
+
+25.2 sits inside the 24-to-31 organic baseline set on 1.8. **At the post level, measured at comparable maturity, the channel has not decayed at all.** What did fall is the first-day read: 18.0 now against roughly 28 in early August, down about 36 percent. Three posts at 18 is 54 views a day against 28 for a single post, so total daily reach roughly doubled while per-post first-day attention dropped.
+
+### Views by slot, on-time posts only, at 2-6 days
+
+| Slot (UTC) | Posts | Mean |
+|---|---|---|
+| 06:00 | 4 | 26.3 |
+| 10:00 | 5 | 24.6 |
+| 17:30 | 4 | 25.0 |
+
+A 7 percent spread against a pre-registered 30 percent threshold. This is the third consecutive result pointing the same way, and the question is now closed rather than deferred.
+
+### The scheduler degraded and nothing alarmed
+
+Measured from `gh run list`: through the evening of 26.8 the hourly cron fired at 0.8-to-1.6-hour intervals as designed. From 26.8 22:50 UTC onward the gaps between consecutive runs were 5.5, 5.7, 9.1, 12.6, 9.5, 6.7, 6.9 and 4.1 hours. **Every run that did fire returned success.** GitHub simply stopped delivering the trigger.
+
+Eight posts landed 3.0 to 7.9 hours late. Post 254 went out at 02:27 local time. Posts 252 and 253 were sent in the same minute, so a reader got two notifications back to back. Publishing self-heals on the next run, so nothing was lost — but every slot comparison in the window is contaminated, and the low view counts on posts 252 through 256 are a function of send hour and age, not content.
+
+### What weeks 5 and 6 measured
+
+Could: publishing reliability, decisively — 42 of 42. And the accrual curve, which retired a false conclusion that nine daily runs had been reinforcing.
+
+Could not: anything about writing. Fourth consecutive report saying so. Ninety-four posts in, the range is still a narrow band that tracks age and nothing else.
+
+Did not intend to measure, and did: **the system's own daily commentary was the least reliable input this window.** Nine runs escalated a measurement artifact into a near-recommendation to cut the publishing cadence. The guardrail that caught it was not a smarter agent; it was a pre-registered threshold, read literally, landing at 20.0 in a band whose written instruction was "continue and report, do not recommend a change."

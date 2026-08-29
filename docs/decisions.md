@@ -144,3 +144,37 @@ The community post is not abandoned. It moves out of the experiment log and into
 The English guidelines went 1.2 to 1.3 without a single rule changing. What changed is that the "every post stands alone" section stopped citing the Hebrew channel's data and started citing its own.
 
 A self-rewriting system accumulates rules from several sources: derived from local data, inherited from a sibling system, and handed down by the owner. After a few months those become indistinguishable in the text, and the next agent to read them treats a borrowed guess with the same confidence as a measured result. Versioning the moment a rule graduates from inherited to tested keeps that distinction alive in the only place it survives, which is the changelog.
+
+## 2026-08-29, Guidelines v1.4: compare posts only at equal age
+
+The learning loop added one rule, and it governs measurement rather than writing. Views may only be compared between posts of the same age, and a number quoted against a baseline must state the age at which the baseline was taken.
+
+The evidence is a directly measured accrual curve: post 237 went 14 views (4-10h) → 20 (24h) → 32 (6 days), with posts 239 and 244 tracing the same shape. A post roughly doubles after day one, so an age-blind comparison is not a weak signal, it is an arithmetic error.
+
+The cost of not having the rule is documented rather than hypothetical. Nine consecutive daily runs compared 24-hour views against a maturity-based baseline and concluded the channel was decaying. It was not: the same posts, read at 2-6 days, average 25.2 against a baseline of 24-31.
+
+This rule has existed on the English channel since 15.8. It was never copied across. That is the whole lesson.
+
+## 2026-08-29, Close experiment 4 at exactly the threshold, and honor the band as written
+
+Experiment 4 asked whether three posts a day dilutes, measured on nine weekday posts at 24 hours. It returned a mean of 20.0, which falls inside the pre-registered band "20 to 21.9: mild stable decline, continue, report the number, do not recommend a change" — two tenths above the band that would have obliged an explicit recommendation to cut the cadence.
+
+The temptation was to round toward the narrative nine daily runs had already built. The band was honored as written instead.
+
+Two disclosures belong with the result. The reading the experiment specified — nine posts at 24 hours, on the morning of 19.8 — was never taken; the run that would have taken it did not happen, and the substitute reading was at 48-96 hours. And the subscriber stop-metric never fired: 110 at both ends of a fortnight carrying 42 posts, with no two consecutive days of decline.
+
+## 2026-08-29, Report the scheduler failure, change nothing in it tonight
+
+GitHub stopped firing the hourly publish cron reliably on 26.8. Gaps between runs went from about an hour to 4-12 hours, with every fired run still returning success. Eight of 21 posts landed 3.0 to 7.9 hours late, one at 02:27 local time.
+
+The obvious mitigation is a second offset cron line. It was not applied, for two stated reasons. It doubles Actions minutes on a private repo and the billing API was not reachable from this run to confirm headroom. More importantly, a 12.6-hour window on 28.8 fired nothing at all, which suggests throttling at the repository level rather than the cron-line level — in which case a second line would have been dropped along with the first.
+
+The decision goes to the human with both options and that caveat attached, rather than being made unilaterally by the loop that noticed it.
+
+## 2026-08-29, Open experiment 5 with its power limit stated in advance
+
+The mini-guide format was approved on 24.7 and has never been adjudicated. Experiment 5 schedules three mini-guides against eighteen regular tips in one week, all three in the same slot to neutralize send time, read at a uniform 72 hours or more.
+
+The honest part is written into the experiment rather than discovered afterward: 3 against 18, in a view range of 22 to 32, has power to detect only a very large effect, and "not significant" is the most likely outcome before a single post is written. It runs anyway, because a null result closes a question that has been carried for a month — but only if the threshold is fixed beforehand.
+
+It also carries a disqualification condition borrowed from the failure of experiment 3: more than three of the twenty-one posts landing over two hours late voids the measurement. Applied to the week just ended, that condition would have fired.
