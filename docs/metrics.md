@@ -8,6 +8,7 @@ Updated every Saturday by the learning agent. Full transparency, including zeros
 | 2026-07-25 | בינה בקטנה (HE) | 4 (+0) | 9 | 0 | $0 | Week 1. Publishing pipeline: 9 for 9, zero failures. Growth: zero. Views per post flat at 2 across every topic, length and time slot, i.e. views are measuring audience size, not content quality. No distribution round was actually executed this week; two directory submissions are still pending review. |
 | 2026-08-01 | Claude Code Daily (EN) | 4 (+2) | 10 | 0 (no affiliate on this channel) | $0 | Week 2. The week the distribution question got a real answer. Two listings went live, a merged PR into a ~7k-star awesome list and a Telegram directory, with no manual promotion to contaminate the signal. Combined measured effect: +2 subscribers. The pre-registered threshold was +10, so the free agent-submittable directory route is now declared dead and closed. Publishing: 10 of 14 scheduled slots, broken by a usage limit on 31.7 followed by two days of API errors; the watchdog detected it, self-healed, failed, and alerted, which is exactly what it was built to do. Views 3 to 5 across all 20 posts, flat for the second week. |
 | 2026-08-01 | בינה בקטנה (HE) | 111 (+107) | 12 | 0 | $0 | Week 2. Subscribers went 4 to 111, and essentially all of it happened in the 48 hours around one manual action: the owner joined Israeli discussion groups and seeded links to specific posts inside relevant threads. Growth in the three days after that action stopped: +1. Publishing reliability collapsed at the end of the week, 12 posts shipped out of 17 scheduled, with five consecutive automated runs failing and the watchdog never alerting. |
+| 2026-08-29 | Claude Code Daily (EN) | 19 (+3) | 41 | 0 (no affiliate on this channel) | $0 | Weeks 5 and 6, a fortnight because the 22.8 run did not happen. Publishing was perfect: 41 of 41 slots, second clean fortnight running, though three posts landed over two hours late in a GitHub cron degradation and three more went out through a rescue path that records nothing, so the publish log under-counts. Growth was not: +3, against +12 in the previous fortnight under identical conditions of zero distribution. Experiment 4 closed in its middle band (18 subscribers on the 23.8 checkpoint, threshold 25) but the fortnight totals answer it better than the checkpoint did: the +12 was an event, not a rate, and acquisition fell fourfold while the archive grew from 56 posts to 98. A web search for the channel handle returns zero organic mentions for the sixth week; 98 posts have bought no discovery surface outside Telegram. Views: mature cohort means 4.55, flat against 4.1 a fortnight ago. Fourth consecutive report that nothing can be concluded about writing. |
 
 ## Per-post views, week 1, Claude Code Daily (EN)
 
@@ -230,3 +231,68 @@ Could: publishing reliability, decisively — 42 of 42. And the accrual curve, w
 Could not: anything about writing. Fourth consecutive report saying so. Ninety-four posts in, the range is still a narrow band that tracks age and nothing else.
 
 Did not intend to measure, and did: **the system's own daily commentary was the least reliable input this window.** Nine runs escalated a measurement artifact into a near-recommendation to cut the publishing cadence. The guardrail that caught it was not a smarter agent; it was a pre-registered threshold, read literally, landing at 20.0 in a band whose written instruction was "continue and report, do not recommend a change."
+
+## Weeks 5 and 6, Claude Code Daily (EN) — 2026-08-16 to 2026-08-29
+
+No weekly run happened on 22.8, the same gap as the Hebrew channel, so this is a two-week report.
+
+| Metric | Value |
+|---|---|
+| Subscribers 15.8 | 16 |
+| Subscribers 29.8 | 19 |
+| Delta over two weeks | **+3** |
+| Delta over the *previous* two weeks | +12 |
+| Distribution actions taken in the window | **0** |
+| Posts published 16.8 to 29.8 | 41 (ids 58 to 98) |
+| Scheduled slots missed | **0** |
+| Organic web mentions of the channel | **0**, sixth consecutive week |
+| Affiliate clicks | 0 (no affiliate links exist on this channel) |
+| Revenue | 0 |
+
+### The experiment that closed, and the number that mattered was not the one it asked for
+
+Experiment 4 asked whether the previous fortnight's +12, which arrived with nobody doing anything, was a live organic source or one source emptying. Thresholds were pre-registered on 15.8: 25 or more subscribers on 23.8 meant real, 17 to 24 meant weak drift, 16 or fewer meant the plateau was the truth. **The reading on 23.8 was 18: weak drift, the middle band.**
+
+The band was honored as written. But the fortnight totals answer the question better than the checkpoint did. Same conditions, zero distribution both times:
+
+| Fortnight | Subscribers | Delta |
+|---|---|---|
+| 1.8 to 15.8 | 4 → 16 | **+12** |
+| 15.8 to 29.8 | 16 → 19 | **+3** |
+
+**The +12 was an event, not a rate.** The rate is roughly one subscriber every four or five days, and it fell fourfold while the archive grew from 56 posts to 98. Acquisition did not compound with volume; it declined.
+
+### Ninety-eight posts, and the web has never heard of the channel
+
+A search for the channel handle returned zero organic mentions for the sixth consecutive week. The public archive is live and machine-readable, and after 36 days and 98 posts no search engine has indexed it. Two directory listings are live and neither is findable.
+
+**Publishing volume is buying no discovery surface outside Telegram at all.** Whatever the acquisition source is, it is Telegram-internal, and writing more posts does not feed it. This is the most decision-relevant finding of the fortnight and it points away from the thing the system is good at.
+
+### The accrual curve, measured on this channel for the first time
+
+Individual posts tracked across repeated readings, rather than one sweep ranked by number:
+
+| Post | First hours | ~24h | Settled |
+|---|---|---|---|
+| 78 | 4 (20h) | 7 (44h) | 7 (92h) |
+| 79 | 2 (3h) | 5 (28h) | 7 (6d) |
+| 88 | 2 (2h) | 4 (16h) | 5 (40h) |
+| 89 | 4 (2h) | 5 (12h) | 6 (36h) |
+
+**A post roughly doubles between its first hours and 24 hours, adds up to 40 percent more by day 6, and is settled by then.** This is the same shape the Hebrew channel measured this fortnight at roughly six times the audience, which is mild evidence it is a Telegram behaviour rather than a channel one.
+
+The mature cohort (ids 79 to 89, read at 3 to 6 days) means **4.55 views**, range 2 to 7, against 4.1 for the comparable cohort a fortnight ago at 16 subscribers. Flat.
+
+### Publishing: perfect on delivery, degraded on timing, blind in one path
+
+41 of 41 slots delivered, the second clean fortnight running. Mean lateness 1.02h, with three posts over two hours late (5.33h, 7.46h, 3.46h), all in the 27.8 to 28.8 window, the same GitHub cron degradation the Hebrew channel measured. Two of them were sent in the same minute, so a subscriber got two notifications back to back at 02:27 local time.
+
+**Three posts have no entry in the publish log at all.** They went out through the Mac rescue path, which deletes the scheduled file after sending and records nothing. The log shows 38 sends for a fortnight that delivered 41. The hole is in the rescue path, so it under-reports delivery in precisely the situation where delivery is most in doubt.
+
+### What weeks 5 and 6 measured on the English channel
+
+Could: the organic-growth question, decisively enough to close it. There is a source, it is small, and it is fading. And the accrual curve, independently derived.
+
+Could not: anything about writing. **Fourth consecutive report saying so.** Ninety-eight posts, nineteen subscribers, a mature range of 2 to 7 that tracks age. This is no longer a data problem to be solved by another week of the same; the channel will not produce a usable writing signal at this size.
+
+Did not intend to measure, and did: **the loop spent four consecutive daily runs investigating three posts that were not old enough to read.** Ids 84 to 86 were called "genuinely stuck at 2 views"; two of them moved the next day. The remaining one was then investigated alone and is a clean post sitting two views below its neighbours, which at 19 subscribers is two people. The wrong conclusion self-corrected in a day. What did not self-correct is that each run cited the number of previous runs as corroboration.

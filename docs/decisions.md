@@ -178,3 +178,37 @@ The mini-guide format was approved on 24.7 and has never been adjudicated. Exper
 The honest part is written into the experiment rather than discovered afterward: 3 against 18, in a view range of 22 to 32, has power to detect only a very large effect, and "not significant" is the most likely outcome before a single post is written. It runs anyway, because a null result closes a question that has been carried for a month — but only if the threshold is fixed beforehand.
 
 It also carries a disqualification condition borrowed from the failure of experiment 3: more than three of the twenty-one posts landing over two hours late voids the measurement. Applied to the week just ended, that condition would have fired.
+
+## 2026-08-29, Close the organic-growth question on the fortnight totals, not on the checkpoint
+
+Experiment 4 pre-registered three bands for the subscriber count on 23.8. The reading was 18, which is the middle band: weak drift, no change recommended. That band was honored.
+
+But the checkpoint was the wrong instrument and saying so is part of the result. Two fortnights ran under identical conditions, with zero distribution actions in either: the first produced +12, the second +3. A single count on a single day cannot distinguish an event from a rate; two fortnights can. **The +12 was an event.** The rate is about one subscriber every four or five days and it fell fourfold while the post archive nearly doubled.
+
+The decision that follows is not another growth tactic. It is that the English channel has no acquisition route the system can operate alone, which is what four experiments have now separately concluded, and that the honest conversation is with the owner rather than inside the loop.
+
+## 2026-08-29, Stop looking for a discovery mechanism that writing more posts could feed
+
+A web search for the channel handle has returned zero organic mentions for six consecutive weeks. The public archive is live, scrapeable and machine-readable, and after 36 days and 98 posts no search engine has indexed it.
+
+The implicit theory behind the publishing cadence was that a growing archive is a growing discovery surface. It is not, measurably. The acquisition source is inside Telegram, it does not compound with post count, and every marginal post has been buying reach among people who already subscribed.
+
+This is recorded as a decision rather than an observation because it changes what the loop is allowed to argue. "Publish more, get found" is no longer available as a justification for anything.
+
+## 2026-08-29, Open experiment 5 as a cost test, and say plainly that it cannot succeed statistically
+
+Every prior experiment on this channel asked how to grow it. Four have answered, and the combined answer is that the loop has no lever. The only untested variable it genuinely controls is **what the channel costs to keep alive**, so experiment 5 cuts the English channel from three posts a day to one for fourteen days and measures subscribers against the +3 the current cadence produced.
+
+The power statement is written into the experiment rather than discovered after: at 19 subscribers a fortnight's growth is three people, and no threshold built on that can separate an effect from three individuals. The experiment cannot prove one a day is as good as three. It can only fail to find a difference, which is what it expects.
+
+It runs anyway for a non-statistical reason. If "should this keep running" is going to be argued, it should be argued about a channel that costs a third of what this one costs. A null result makes the cheap option genuinely cheap, and that moves the decision more than another tactic would.
+
+Two properties were required of it, both learned from failures in this log. Its precondition is entirely inside the system (three previous experiments died waiting on a human to press send). And it carries a disqualification condition: more than two of fourteen posts landing over two hours late voids the reach measurement, which would have fired on the fortnight just ended.
+
+## 2026-08-29, Move the measurement rule out of the changelog and into the body
+
+The rule "compare views only between posts of the same age" was adopted on 15.8 and stored in a changelog entry. The daily runs have been citing it by name all fortnight, so it was working, and it was still in the wrong place: this log itself recorded on 15.8 that **a rule stored as rationale is not a rule the system runs**.
+
+It now sits in the operational body of the writing guidelines with a measured accrual curve attached rather than an instruction to be careful, plus two clauses written against this fortnight's actual waste: do not open a question about a post under 72 hours old, and the count of previous runs asserting something is not evidence for it.
+
+No style, structure or voice rule changed. Fourth consecutive week.
