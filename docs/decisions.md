@@ -212,3 +212,37 @@ The rule "compare views only between posts of the same age" was adopted on 15.8 
 It now sits in the operational body of the writing guidelines with a measured accrual curve attached rather than an instruction to be careful, plus two clauses written against this fortnight's actual waste: do not open a question about a post under 72 hours old, and the count of previous runs asserting something is not evidence for it.
 
 No style, structure or voice rule changed. Fourth consecutive week.
+
+## 2026-09-19, Guidelines v1.6: give the baseline an age label, because a rule without a number is not enforceable
+
+v1.4 (29.8) established "compare posts only at equal age" and it was the right rule. It did not stop the error. For the next three weeks the daily runs kept writing "slightly below the comparable baseline" about posts aged 19 and 27 hours, because the number `24 to 31` still sat in the body of the guidelines with no age attached to it.
+
+v1.6 replaces the bare number with a table: mature (7+ days) is 29 to 31, measured on 38 posts; 24 hours is roughly 17 to 20; under 24 hours has no baseline and is not compared at all, in any wording.
+
+**The general form of this lesson: a correct rule next to an unlabelled number loses to the number.** The rule was read; the number was used.
+
+## 2026-09-19, Close experiment 5 as void, and close the question behind it permanently
+
+The void is mechanical: the pre-written disqualification (more than three of 21 posts over two hours late) fired at 12 of 20.
+
+Closing the *question* is the judgement call, and it is deliberate. Mini-guide vs tip was opened 24.7, deferred 1.8, deferred 15.8, contaminated 19.9. Each attempt failed for a different infrastructure reason and none produced a usable measurement. The pre-written power limit already said a null was the likeliest outcome, and the one descriptive number available says exactly that, +5.1 percent.
+
+**A question that three consecutive attempts could not ask is not a question this system can answer.** Keeping it open costs a slot constraint every week and buys nothing.
+
+## 2026-09-19, Open experiment 6 on distribution, and write the null as a binding outcome
+
+Every content question is closed or unanswerable. The one variable that has ever moved subscribers in this experiment is manual distribution, and it has not been touched for seven weeks: four outreach messages have been written and ready since 1.8 and 29.8, and none has been sent. In that time subscribers went from 110 to 114 across 49 posts.
+
+Experiment 6 measures the subscriber delta over two weeks if those four messages go out. The thresholds are ordinary. The unusual clause is the last one:
+
+> **If no message is sent: the experiment closes as not executable, and from that point the loop stops proposing new distribution targets.**
+
+This is written in advance because it is the most likely outcome on seven weeks of evidence, and because a loop that produces a weekly distribution package nobody sends is producing waste and calling it work. The null result has to be allowed to change the system's own behaviour, not just be reported.
+
+## 2026-09-19, Report the reliability gap as a yes/no question, do not close it unilaterally
+
+The Hebrew channel has no equivalent of the English channel's slot-verification safety nets. This has now been recorded twice without action, and the temptation was to just build it.
+
+It was not built, for one reason: the rescue path publishes to a public channel. An action with an outward effect, originating from the system's own analysis rather than from the owner, needs his explicit yes. The precedent on the English side exists because he approved it there.
+
+**What changed instead is the form of the report.** Two reports stated the gap as a finding. This one states it as a one-line yes/no. A finding that has been reported twice and not acted on is not a communication failure of the reader.

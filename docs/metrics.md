@@ -296,3 +296,59 @@ Could: the organic-growth question, decisively enough to close it. There is a so
 Could not: anything about writing. **Fourth consecutive report saying so.** Ninety-eight posts, nineteen subscribers, a mature range of 2 to 7 that tracks age. This is no longer a data problem to be solved by another week of the same; the channel will not produce a usable writing signal at this size.
 
 Did not intend to measure, and did: **the loop spent four consecutive daily runs investigating three posts that were not old enough to read.** Ids 84 to 86 were called "genuinely stuck at 2 views"; two of them moved the next day. The remaining one was then investigated alone and is a clean post sitting two views below its neighbours, which at 19 subscribers is two people. The wrong conclusion self-corrected in a day. What did not self-correct is that each run cited the number of previous runs as corroboration.
+
+## Weeks 7, 8 and 9, בינה בקטנה (HE) — 2026-08-30 to 2026-09-19
+
+Three weeks in one report, because the weekly loop fired on time on 5.9 and on 12.9 and died before writing a line, both times silently. See `lessons.md`.
+
+| | Week 7 (30.8-5.9) | Week 8 (6.9-12.9) | Week 9 (13.9-19.9) |
+|---|---|---|---|
+| Slots delivered | 20 / 21 | 18 / 21 | **11 / 21** |
+| Mean lateness | 2.41h | 2.37h | 2.47h |
+| Posts over 2h late | 12 | 10 | 7 |
+| Subscribers at week end | 112 | 113 | **114** |
+
+Subscribers: **110 on 29.8, 114 on 19.9. Plus four in three weeks, across 49 published posts.**
+
+### The cadence question, answered on 38 posts instead of two days
+
+This is the question that has been open since 12.8, when the channel moved to three posts a day against the only data available. All posts below were read on 19.9 at a uniform mature age.
+
+| Cohort | n | Age at read | Mean views |
+|---|---|---|---|
+| 30.8 to 5.9 | 20 | 14-20 days | **30.6** |
+| 6.9 to 12.9 | 18 | 7-13 days | **29.3** |
+| Organic baseline set 1.8, at one post per day | 4 | mature | **24 to 31** |
+
+**Both weeks sit inside the baseline, not below it.** Three posts a day did not dilute per-post views. Daily exposure is roughly 90 views against roughly 28 at one post a day, at no cost to the individual post. Experiment 4 closed at exactly 20.0 on nine posts and two days; this is the same question at n=38 and it answers cleanly in the other direction.
+
+### Experiment 5 (mini-guide vs regular tip): void, and closed permanently
+
+The experiment carried a pre-written disqualification: *more than three of 21 posts landing over two hours late voids the measurement*. Actual: **20 of 21 published, 12 of them over two hours late**, mean lateness 2.41h, max 6.80h. The condition fired at four times the threshold.
+
+Second, independent failure: the design required three mini-guides; **two were written**. The Sunday slot got a 111-word regular tip.
+
+Descriptive numbers anyway, explicitly not evidence, all 20 posts at a uniform 14-20 days:
+
+| Group | n | Mean |
+|---|---|---|
+| Mini-guides | 2 | 32.0 |
+| Regular tips | 18 | 30.4 |
+
+Plus 5.1 percent, deep inside the pre-written "not significant" band. The question was opened on 24.7, deferred on 1.8, deferred again on 15.8, and contaminated today. **Three consecutive attempts died because the infrastructure would not let the question be asked. It will not be asked a fourth time.**
+
+### Reliability is the only constraint that is actually costing anything
+
+**49 of 63 slots, 78 percent.** The large hole: four days of total silence, 12-15.9, after the Mac's `claude -p` OAuth session expired on 11.9 and killed every scheduled task system-wide, not just this channel. Fixed on 15.9 by moving to a one-year token.
+
+The small persistent hole: the GitHub Actions cron throttle, open since 26.8, now in its fourth week. Mean lateness is a stable ~2.4 hours in all three weeks. Every run that fires ends in success; they simply are not fired on the hour.
+
+**A gap recorded on 29.8 and still open:** the English channel has three Mac-side safety nets that check whether a cloud slot went out and rescue it if not. The Hebrew channel has none.
+
+### What weeks 7 to 9 measured
+
+Could: the cadence question, decisively, at n=38 and mature age. It is closed.
+
+Could not: anything about writing. **Sixth consecutive report saying so**, now at 143 posts.
+
+Did not intend to measure, and did: **the learning loop is itself an unalarmed single point of failure.** Two consecutive weeks it fired, failed, and logged the failure to a file nobody reads. The scheduler recorded both as "run".
