@@ -352,3 +352,58 @@ Could: the cadence question, decisively, at n=38 and mature age. It is closed.
 Could not: anything about writing. **Sixth consecutive report saying so**, now at 143 posts.
 
 Did not intend to measure, and did: **the learning loop is itself an unalarmed single point of failure.** Two consecutive weeks it fired, failed, and logged the failure to a file nobody reads. The scheduler recorded both as "run".
+
+## Weeks 7, 8 and 9, Claude Code Daily (EN) — 2026-08-30 to 2026-09-19
+
+Subscribers 19 to 33 (+14), against +3 in the preceding fortnight. 125 posts published in total, 11 of them in this window: the channel was dark 11-15.9, when the Mac's `claude -p` OAuth session expired and killed every scheduled task system-wide.
+
+### The cadence question was asked here too, and the outage destroyed the control
+
+The English channel ran the opposite experiment to the Hebrew one: it cut from three posts a day to one on 31.8, and the result came back on the top band (subscribers 19 to 31). Ofir reversed it by voice on 15.9 and the channel went back to three a day.
+
+The read that four consecutive daily runs deferred to the weekly run could not be made. The one-a-day cohort has **no reading at 72 hours**, because nothing executed between 10.9 and 15.9. Its earliest reading is at 5 to 11 days. The three-a-day cohort is at 70 to 78 hours. Comparing them is precisely the age artifact the channel's own measurement rule forbids, so it was not done.
+
+What is comparable is total daily reach, and every number carries its age:
+
+| Cohort | Age at read | Views | Mean | Day total |
+|---|---|---|---|---|
+| 16.9 triple (3/day) | 70-78h | 9, 10, 10 | 9.7 | **29** |
+| 17.9 triple (3/day) | 47-55h | 6, 6, 7 | 6.3 | 19 |
+| 7-10.9 singles (1/day) | 9-12 days | 14, 21, 18, 23 | 19.0 | 19.0 |
+
+A three-a-day day beats a one-a-day day on total reach **while being read at a younger and disadvantaged age**. Direction is solid, magnitude is not, and per-post dilution is still unanswered. The equal-age read is pre-registered for 25.9.
+
+### The finding: the accrual curve this channel published on 29.8 is wrong
+
+Three weeks ago this repo published a measured accrual curve for the English channel: a post doubles by 24 hours, adds up to 40 percent by day 6, and is settled after. Eight posts were tracked across two readings four days apart, 15.9 and 19.9. **All eight gained.**
+
+| Msg | 15.9 (age) | 19.9 (age) | Gain |
+|---|---|---|---|
+| 113 | 12 (~6d) | 18 (~10d) | +50% |
+| 114 | 17 (~5d) | 23 (~9d) | +35% |
+| 111 | 11 (~8d) | 14 (~12d) | +27% |
+| 108 | 12 (~14d) | 15 (~18d) | +25% |
+| 112 | 17 (~7d) | 21 (~11d) | +24% |
+| 109 | 13 (~13d) | 15 (~17d) | +15% |
+| 110 | 14 (~12d) | 16 (~16d) | +14% |
+| 107 | 18 (~14d) | 20 (~18d) | +11% |
+
+A post gains a quarter to a half **between day 6 and day 12** and is still creeping at day 18.
+
+The error was load-bearing rather than cosmetic. Every metrics entry since 29.8 called a day-5 or day-6 cohort "settled" and then compared it to something else, which is a **second age artifact stacked on top of the one the rule was written to catch**: two cohorts can both be past day 6 and still not be comparable, because one is at day 6 and the other at day 12. Seven daily runs made the assumption. The guidelines were rewritten to v1.6 with the table above and a binding clause that "mature" must always be written as a number of days and never as a state.
+
+### The voice caps were being satisfied by periodicity
+
+On 17.9 the owner said, for the second time in six weeks, that the English channel reads like a bot. The fix added caps: at most one labelled payoff line in any three consecutive posts, at most one question opener in three.
+
+An audit of all 21 queued posts on 19.9 found the caps met and the template intact. `Worth it because:` appeared on the 12:00 post on **six consecutive days and on no other slot**. A question opener appeared on the 16:00 post on **five consecutive days**. Every three-post window passed, because a perfectly periodic sequence passes a three-post window by construction.
+
+**A cap is a ceiling, and it was being read as a quota.** v1.6 adds that variation must never align with the slot and that the check window is the last six to nine posts, not three. Five queued posts were edited the same run, voice only.
+
+### What weeks 7 to 9 measured on the English channel
+
+Could: that its own published accrual curve was wrong, and how the correction invalidates three weeks of "settled cohort" comparisons. That the voice caps had been converted into a schedule.
+
+Could not: per-post cadence dilution, because the outage removed the control. Anything from views about writing, for the seventh consecutive report, now at 125 posts.
+
+**Instrumentation hole, recorded because it limits every future audit:** only **4 of the 11 posts published this window survive in `published/en/`**. The Mac rescue path deletes the scheduled file and writes no row, so seven posts that went out have no archived text anywhere. The gap is in the fallback path, which is where it costs the most.

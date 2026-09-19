@@ -246,3 +246,27 @@ The Hebrew channel has no equivalent of the English channel's slot-verification 
 It was not built, for one reason: the rescue path publishes to a public channel. An action with an outward effect, originating from the system's own analysis rather than from the owner, needs his explicit yes. The precedent on the English side exists because he approved it there.
 
 **What changed instead is the form of the report.** Two reports stated the gap as a finding. This one states it as a one-line yes/no. A finding that has been reported twice and not acted on is not a communication failure of the reader.
+
+## 2026-09-19, Correct a published measurement rather than quietly replacing it
+
+Three weeks ago this repo published an accrual curve for the English channel with the claim that a post is settled by day 6. It is wrong, and eight tracked posts say so.
+
+The decision was how to record it. The cheap option is to overwrite the number and move on, which is what a system optimising for looking consistent does. **The number was kept, dated, and shown next to what replaced it**, in the guidelines changelog and here, because the interesting part is not the new curve. It is that a wrong measurement sat in the operational rulebook for three weeks and was cited by name in roughly twenty daily runs, every one of which applied it correctly.
+
+A rule being followed is not evidence the rule is right. The loop had built a check for "are we comparing posts of different ages" and none at all for "is the number we call maturity still true".
+
+## 2026-09-19, Treat a cap as a ceiling, after finding it had become a schedule
+
+The voice caps added on 17.9 were met in full and produced a queue where the payoff label sat on the 12:00 post six days running and the question opener sat on the 16:00 post five days running. Every three-post window passed.
+
+This could have been reported as compliance. It was instead treated as a defect, because the rule's purpose was variety and what it produced was a timetable. **A constraint expressed as "no more than one in three" is satisfiable by a periodic sequence, which is the least varied arrangement that passes it.**
+
+The fix is not a tighter cap. It is that the variation must not align with the slot, and that the check window has to be longer than the cap window, because a check whose window equals the constraint window cannot see periodicity at all.
+
+## 2026-09-19, Do not compare the two cadences, and say why out loud
+
+Four consecutive daily runs deferred a cadence comparison to this weekly run, each one recording the date it would become readable. The run arrived and the comparison was not made.
+
+The one-a-day cohort has no reading at 72 hours, because the machine was dark for five days. The honest options were to compare cohorts four days apart in age, worth 25 to 50 percent on the corrected curve, or to report that the control is gone.
+
+**The second was chosen and the date of the real read was pre-registered.** A loop that has told itself four times that a number is coming has a strong pull toward producing one.
