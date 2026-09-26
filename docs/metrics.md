@@ -407,3 +407,85 @@ Could: that its own published accrual curve was wrong, and how the correction in
 Could not: per-post cadence dilution, because the outage removed the control. Anything from views about writing, for the seventh consecutive report, now at 125 posts.
 
 **Instrumentation hole, recorded because it limits every future audit:** only **4 of the 11 posts published this window survive in `published/en/`**. The Mac rescue path deletes the scheduled file and writes no row, so seven posts that went out have no archived text anywhere. The gap is in the fallback path, which is where it costs the most.
+
+---
+
+## Week 10, בינה בקטנה (HE) — 2026-09-20 to 2026-09-26
+
+Subscribers: **114 → 116** (+2). Slots published: **21 of 21**. Affiliate links live: 0. Revenue: **0**.
+
+### The first perfect publishing week, and it bought two subscribers
+
+Message ids 308 through 328 cover seven days at three slots a day with no gap. For comparison: 11 of 21 the week before (a four-day silence from an expired OAuth token), and 49 of 63 across the three weeks the 19.9 report measured.
+
+Lateness collapsed at the same time. The three-layer fix shipped on 20.9 — a Mac-side push a few minutes after each slot, both publisher repos moved to a ten-minute cron after being made public, and a verify pass — now has a full week behind it:
+
+| Window | n | Mean lateness | Posts >30 min late |
+|---|---|---|---|
+| 16-19.9 (before) | 11 | **2.47 h** | 10 of 11 |
+| 20-26.9 (after) | 21 | **0.54 h** | 4 of 21 |
+
+17 of 21 posts went out in 4 to 5 minutes. All four real delays fall on a single day, 25.9, and every one of them self-healed on the next cloud run. **Slot-based measurement is valid again for the first time since 26.8**, which matters because the standing excuse for every inconclusive slot comparison was contamination by lateness.
+
+So the honest headline is the ratio, not the streak: **the best content week this system has ever produced, delivered almost to the minute, moved the subscriber count by two.**
+
+### The measuring instrument could not reach the age its own baseline was defined on
+
+`channel-views.py` scraped the channel's public preview page and returned the last 20 posts. At three posts a day that is 6.7 days of cover. The mature baseline in the Hebrew guidelines was defined at **age 7 days and up**.
+
+The tool was therefore structurally incapable of showing a single post old enough to compare. **Eleven consecutive daily runs logged some form of "the mature-baseline decision belongs to the weekly loop", and the weekly loop was handed the question without a thermometer that reached.** Nobody was wrong at any step; the rule was sound, the daily discipline was correct, and the gap sat in the one place neither was looking.
+
+Fixed this run: the preview page accepts `?before=<message_id>` and returns the 20 before it. The tool now walks back five pages by default, and this measurement ran on **80 posts (ids 249-328, 27.8 to tonight)** instead of 20.
+
+### Paired re-read: the accrual curve does not stop at day 7
+
+A cross-sectional age curve mixes cohorts, so the exact post sets the 19.9 report measured were re-read — same ids, same n:
+
+| Cohort | n | 19.9 | 26.9 | Change |
+|---|---|---|---|---|
+| 30.8-5.9 | 20 | 30.6 (age 14-20d) | **31.5** (age 21-27d) | +3% |
+| 6.9-12.9 | 18 | 29.3 (age 7-13d) | **32.7** (age 15-20d) | **+11.6%** |
+
+A post keeps climbing to roughly day 14 and then flattens near 32-33. The cross-section on all 80 posts agrees: 23.6 at age 3-7 days, 31.6 at 7-11 days, 32.6 at 14-21 days, 32.2 at 21-31 days.
+
+**This invalidates the label, not the number.** v1.6 called 29-31 "the mature baseline, 7 days and up". That is the day-7-to-13 number, about 10 percent below the settled level, so every post read at age 7 to 10 days and measured against "mature" looked weaker than it was.
+
+### The same correction was published on the English channel a week earlier, and did not cross over
+
+On 19.9 this repo published, under Claude Code Daily: *"the accrual curve this channel published on 29.8 is wrong"*, with eight paired posts showing a quarter to a half of gain between day 6 and day 12. The Hebrew guidelines were rewritten to v1.6 **the same evening**, and did not copy it.
+
+This is the second time a measurement rule reached one channel and not the other. The first is recorded in the Hebrew v1.4 changelog: the equal-age rule existed in the English channel from 15.8 and cost nine days of wrong conclusions before it was ported. **One shared repo and two agents reading it is not the same as one rule.** The Hebrew loop ran a week later and rediscovered from scratch, on its own data, something already written down.
+
+### The question deferred eleven times, answered
+
+Did the mature baseline erode? On 22.9 a daily run recorded a suspicion that posts were "settling around 15 to 18" instead of 29-31, and flagged it for the weekly loop.
+
+The three posts of 19.9, the exact ones that produced that suspicion at 14-17 views and age 22-33 hours:
+
+| Msg | Slot | Age tonight | Views |
+|---|---|---|---|
+| 305 | 19.9 06:00 | 7.4 d | **28** |
+| 306 | 19.9 10:00 | 7.2 d | **28** |
+| 307 | 19.9 17:30 | 6.9 d | 26 |
+
+The whole 16-19.9 week (ids 296-307, n=12) at age 6.9-10.3 days: **31.2**, inside the band. No erosion. The suspicion was an age artifact, and the v1.6 rule did exactly the job it was written for: it stopped a decision from being made on an invalid number, and the number then climbed.
+
+### Slots, closed for the fifth time and this time on clean data
+
+| Slot | This week, age 3-6.3d | 16-19.9, age 7-10.3d |
+|---|---|---|
+| 06:00 UTC | 24.0 (n=4) | 33.5 (n=4) |
+| 10:00 UTC | 24.5 (n=4) | 29.8 (n=4) |
+| 17:30 UTC | 23.0 (n=5) | 31.7 (n=3) |
+
+Spread 6.5 percent this week against a threshold of 30 written in advance. Closed permanently and will not be tested a sixth time.
+
+### Story format: n=2, and not significant in either direction
+
+The story format was added to the Hebrew guidelines on 17.9 at the owner's explicit request, with a commitment that the weekly loop would compare it to tips at equal age. Two have published: 310 at **23** views (age 6.0d) and 322 at **22** (age 2.0d), against evening-slot tips at 21 to 23. Descriptively indistinguishable. Moved to experiment 7 with thresholds written in advance rather than read as a result now.
+
+### What week 10 measured
+
+Could: that its own instrument had a blind spot exactly where its rule needed vision, and that eleven correct deferrals cannot fix a broken thermometer. That the accrual curve runs to day 14, not day 7. That the mature baseline did not erode. That slot timing does not matter, on the first uncontaminated measurement.
+
+Could not: anything about writing, for the sixth consecutive report, now at 80 posts read in one pass. **Reliability was the binding constraint for five weeks, it is now fixed and measured, and the subscriber count moved by two.** Neither writing nor delivery is the constraint. Distribution is the only untested variable left, and experiment 6 has been open for a week with zero of its four messages sent.

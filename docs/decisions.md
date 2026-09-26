@@ -270,3 +270,47 @@ Four consecutive daily runs deferred a cadence comparison to this weekly run, ea
 The one-a-day cohort has no reading at 72 hours, because the machine was dark for five days. The honest options were to compare cohorts four days apart in age, worth 25 to 50 percent on the corrected curve, or to report that the control is gone.
 
 **The second was chosen and the date of the real read was pre-registered.** A loop that has told itself four times that a number is coming has a strong pull toward producing one.
+
+## 2026-09-26, Guidelines v1.7: split the baseline table by age, and stop calling day 7 "settled"
+
+v1.6 published one row for "7 days and up = 29-31". A paired re-read of the exact cohorts measured a week earlier showed 29.3 → 32.7 (+11.6%) between age ~10 days and ~17 days, and 30.6 → 31.5 (+3%) between ~17 and ~24. So day 7 is not the plateau; day 14 is, near 32-33.
+
+The table now has six age rows, and the one that matters most is new: **age 3 to 7 days = 23 to 24**, measured on 13 posts. Its absence is what forced eleven consecutive daily runs to log "no valid comparison" for posts aged two days to a week and defer the decision. A rule that covers 24 hours and 7 days and nothing between leaves most of a post's life unmeasurable.
+
+No style rule changed. Sixth consecutive week.
+
+## 2026-09-26, Fix the instrument before trusting the eleventh deferral
+
+Eleven daily runs did the right thing and the answer still never arrived, which is the signature of a tooling problem wearing a discipline problem's clothes. `channel-views.py` returned 20 posts; three posts a day makes that 6.7 days of cover; the baseline was defined at 7 days and up. The tool could not, in principle, produce the comparison the rule demanded.
+
+Paginating the preview page with `?before=<id>` was a five-line change and raised the read from 20 posts to 80. **The rule had been checked repeatedly and the thermometer never had been.** Rule audits should include the instrument that feeds them.
+
+## 2026-09-26, Do not close experiment 6 early just because the weekly loop is running
+
+Experiment 6 (manual distribution) pre-registered its measurement date as 3.10. The weekly loop ran on 26.9 with the experiment one week in and zero of four messages sent. Closing it now on a +2 subscriber delta would have produced a clean-looking result from half a window, which is exactly what pre-registered dates exist to prevent. Logged as interim; the date stands.
+
+The week did sharpen it, though, from the other side: a perfect 21-of-21 publishing week with near-zero lateness moved subscribers by two. That is the strongest support yet for the experiment 2 finding that content retains and does not acquire.
+
+## 2026-09-26, Open experiment 7 on the story format, because a commitment was made and has not been paid
+
+Guidelines v1.5 added the story format at the owner's explicit request on 17.9 and promised that the weekly loop would compare it to tips at equal age and report back. One week later there are two stories and nothing to report beyond "not significant". Rather than let the promise quietly lapse or read n=2 as a result, experiment 7 registers it properly: evening slot only, age 7-13 days, minimum 4 stories, four decision bands and a void condition, measured 10.10.
+
+Two bands are written to constrain the loop rather than the format. If stories lose by more than 25 percent, the loop reports the numbers and **the decision to remove the format belongs to the owner**, because he asked for it. If the gap is under 10 percent, the format stays and he is told plainly that it stays because he wanted it and not because it won.
+
+## 2026-09-26, Downgrade the Hebrew safety-net gap after recording it seven times
+
+Seven consecutive runs recorded that the Hebrew channel has no equivalent of the English `verify-cloud-*` rescue jobs, and that `publish-verify.sh` does not cover the 06:00 slot. Over a full week the cost of that gap was measurable: two delays of about two hours on one day, both self-healed by the next cloud run, no post lost, the 20-hour discard rule never approached.
+
+It stops being reported as an active fault. The trigger for reopening it is written down instead: a day on which all three slots are more than an hour late.
+
+## 2026-09-26, Stop researching new distribution targets, one week ahead of the rule that says so
+
+Experiment 6 states that if none of its four messages are sent, the loop **stops proposing new distribution targets**. Five prepared outreach texts now sit unsent, the oldest from 1.8, and a 29.8 decision already closed re-scanning the Hebrew channel band for new candidates.
+
+So this week's distribution package researched nothing new. It carries one share text for the strongest post and a list of the five that are already written and waiting. Producing a sixth unsent text would be activity, not work.
+
+## 2026-09-26, Fill the backlog from the general-tools category, not from the changelog or the command pages
+
+The backlog arrived at 14 available items after eight consecutive daily warnings, and the daily runs had already diagnosed why refills keep failing: items pulled from the changelog get blocked on hard rule 4, because the changelog ships before the docs.
+
+A grep of 60 candidates showed the asymmetry plainly. Eight of ten Claude Code candidates collided with something already published; nearly every general-audience candidate returned zero. **The Claude Code topic surface is genuinely depleting and the general one is not, and general is the audience the guidelines actually define** — curious Israelis who are not necessarily technical. 28 items were added, 7 from documentation pages with zero hits and 21 from the general category, each with its grep count recorded. Future refills start from general.
