@@ -314,3 +314,31 @@ So this week's distribution package researched nothing new. It carries one share
 The backlog arrived at 14 available items after eight consecutive daily warnings, and the daily runs had already diagnosed why refills keep failing: items pulled from the changelog get blocked on hard rule 4, because the changelog ships before the docs.
 
 A grep of 60 candidates showed the asymmetry plainly. Eight of ten Claude Code candidates collided with something already published; nearly every general-audience candidate returned zero. **The Claude Code topic surface is genuinely depleting and the general one is not, and general is the audience the guidelines actually define** — curious Israelis who are not necessarily technical. 28 items were added, 7 from documentation pages with zero hits and 21 from the general category, each with its grep count recorded. Future refills start from general.
+
+## 2026-09-26 (EN), Forbid the loop from citing its own headline number, without changing the decision it supported
+
+The 19.9 report published "29 against 14.3" as evidence that three posts a day beat one on total reach, and the 25.9 pre-registered read published "35 against 11 and 23" for the same claim at a larger age. Both rest on one day, 16.9, and that day was the first publishing after a five-day outage.
+
+Week 10 gave the comparison the loop had never been able to make: the same slots, one week later, read at **identical age**, with more subscribers. 25 against 29. Every normal-service day since sits at 18 to 25, and the oldest of them reads below what the 16.9 triple held while younger, which the accrual curve forbids.
+
+**The cadence does not change.** The owner chose three a day on 15.9 with the counter-evidence in front of him, and the loop already cut his cadence unilaterally once. What changes is narrower and more useful: a fourth binding measurement clause forbidding comparison of a post-gap cohort to a normal-service one at any age, and a standing ban on citing 29 or 35 again. **The loop is allowed to correct its own evidence without reopening the owner's decision, and keeping those two separate is the whole point of the entry.**
+
+## 2026-09-26 (EN), Give the news slot back without touching the buffer the owner asked for
+
+On 15.9 the owner raised the queue target to 21 posts and in the same message asked for startup and AI-industry news. Those requests are in direct conflict: at a week-deep queue the earliest free slot is always seven days out, so no dated item can reach one. For eleven days the system resolved the conflict silently, in favour of the buffer. Nothing fresh published, `format=story` never once used, eleven runs logging the news well as structurally unavailable.
+
+The fix takes the slack from the buffer rather than from either request. The nearest midday slot at least 18 hours out may be **overwritten** by an item whose source is under 72 hours old; the displaced post is re-queued at the far end and never deleted. Queue depth stays at 21 at every moment, so the outage guarantee that motivated the buffer is exactly as strong, and cadence and slot map are untouched.
+
+**Decided by the loop, with the owner told in one line and a one-word revert**, on the grounds that it serves one of his requests using slack from another rather than overriding either. That is a narrower authority than the 31.8 cadence cut claimed, and the difference is deliberate.
+
+## 2026-09-26 (EN), Do not close experiment 6 early, even with a tidy number available
+
+Experiment 6 is one week into a two-week window and +3 was sitting there to report. Reading a pre-registered experiment on day 7 against thresholds written for day 14 is the same error the loop spent two guideline versions correcting in its view data. The 3.10 run closes it.
+
+Both this channel and the Hebrew one reached this decision independently on the same evening, on the same reasoning.
+
+## 2026-09-26 (EN), Write the week's share package as a subordinate to the previous one, not a replacement
+
+Experiment 6 asks a yes-or-no question: was anything ever sent. Two competing packages make that unanswerable. The new package is filed explicitly as an alternative text for a different kind of thread, with the 19.9 file named as primary, because the 19.9 tip needs a thread about headless runs and CI cost and no such thread has appeared in a week. Two different openings, one experiment, either one counts.
+
+Research was cut to one new target rather than a full round, one week ahead of the rule that will stop it entirely. Eight targets are researched and ready and zero have ever been submitted; a ninth would not change that number.

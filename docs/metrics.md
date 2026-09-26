@@ -9,6 +9,8 @@ Updated every Saturday by the learning agent. Full transparency, including zeros
 | 2026-08-01 | Claude Code Daily (EN) | 4 (+2) | 10 | 0 (no affiliate on this channel) | $0 | Week 2. The week the distribution question got a real answer. Two listings went live, a merged PR into a ~7k-star awesome list and a Telegram directory, with no manual promotion to contaminate the signal. Combined measured effect: +2 subscribers. The pre-registered threshold was +10, so the free agent-submittable directory route is now declared dead and closed. Publishing: 10 of 14 scheduled slots, broken by a usage limit on 31.7 followed by two days of API errors; the watchdog detected it, self-healed, failed, and alerted, which is exactly what it was built to do. Views 3 to 5 across all 20 posts, flat for the second week. |
 | 2026-08-01 | בינה בקטנה (HE) | 111 (+107) | 12 | 0 | $0 | Week 2. Subscribers went 4 to 111, and essentially all of it happened in the 48 hours around one manual action: the owner joined Israeli discussion groups and seeded links to specific posts inside relevant threads. Growth in the three days after that action stopped: +1. Publishing reliability collapsed at the end of the week, 12 posts shipped out of 17 scheduled, with five consecutive automated runs failing and the watchdog never alerting. |
 | 2026-08-29 | Claude Code Daily (EN) | 19 (+3) | 41 | 0 (no affiliate on this channel) | $0 | Weeks 5 and 6, a fortnight because the 22.8 run did not happen. Publishing was perfect: 41 of 41 slots, second clean fortnight running, though three posts landed over two hours late in a GitHub cron degradation and three more went out through a rescue path that records nothing, so the publish log under-counts. Growth was not: +3, against +12 in the previous fortnight under identical conditions of zero distribution. Experiment 4 closed in its middle band (18 subscribers on the 23.8 checkpoint, threshold 25) but the fortnight totals answer it better than the checkpoint did: the +12 was an event, not a rate, and acquisition fell fourfold while the archive grew from 56 posts to 98. A web search for the channel handle returns zero organic mentions for the sixth week; 98 posts have bought no discovery surface outside Telegram. Views: mature cohort means 4.55, flat against 4.1 a fortnight ago. Fourth consecutive report that nothing can be concluded about writing. |
+| 2026-09-19 | Claude Code Daily (EN) | 33 (+14) | 11 | 0 (no affiliate on this channel) | $0 | Weeks 7, 8 and 9, backfilled: the 5.9 and 12.9 runs did not execute and the 15.9 one was a rescue. The channel was dark 11.9 to 15.9 when the Mac's OAuth session expired and killed every scheduled task system-wide. It gained subscribers fastest during the week it published almost nothing. The accrual curve this repo published on 29.8 was falsified on eight paired posts: a post gains a quarter to a half between day 6 and day 12 and is still creeping at day 18, so "settled by day 6" had been making healthy cohorts look comparable when they were not. Experiment 5 closed on cadence and the owner reversed the result the same evening, which is his call on his own channel. |
+| 2026-09-26 | Claude Code Daily (EN) | 36 (+3) | 21 | 0 (no affiliate on this channel) | $0 | Week 10, and the first uninterrupted week in the channel's life. Publishing was flawless: 21 of 21 slots, every post 4 to 16 minutes after its slot against one to two hours in August, and no rescue path ran, so for the first time every post survives in the archive. Growth returned to baseline: +3, against +14 over the previous three weeks. The week's finding corrects two of this repo's own published numbers. The 16.9 triple that was cited as proof three-a-day beats one-a-day on total reach (29 views at three days, 35 at 8.5) was published the day after five dark days; at exactly matched age one week later the equivalent triple reads 25, and every normal-service day since sits at 18 to 25. The outage was in the number. Cadence is unresolved, not settled. Second finding: a correct rule was silently voided by a change elsewhere, and nobody noticed for eleven days. |
 
 ## Per-post views, week 1, Claude Code Daily (EN)
 
@@ -489,3 +491,64 @@ The story format was added to the Hebrew guidelines on 17.9 at the owner's expli
 Could: that its own instrument had a blind spot exactly where its rule needed vision, and that eleven correct deferrals cannot fix a broken thermometer. That the accrual curve runs to day 14, not day 7. That the mature baseline did not erode. That slot timing does not matter, on the first uncontaminated measurement.
 
 Could not: anything about writing, for the sixth consecutive report, now at 80 posts read in one pass. **Reliability was the binding constraint for five weeks, it is now fixed and measured, and the subscriber count moved by two.** Neither writing nor delivery is the constraint. Distribution is the only untested variable left, and experiment 6 has been open for a week with zero of its four messages sent.
+
+## Week 10, Claude Code Daily (EN), 2026-09-20 to 2026-09-26
+
+The first week in this channel's life with no outage, no missed slot and no rescue path firing. That matters less for what it delivered than for what it made visible: with delivery finally clean, the week produced the first exactly-age-matched week-on-week reading the channel has ever been able to take, and that reading falsified a number this repo published a week ago.
+
+### Delivery, fixed and measured
+
+| | August rows | This week |
+|---|---|---|
+| Slots filled | varies, three lost to outage | **21 of 21** |
+| Lateness, mean | ~1.0 h | **0.09 h** |
+| Lateness, worst | 1.76 h | **0.27 h** |
+| Posts surviving in the archive | 4 of 11 last week | **21 of 21** |
+
+Every figure is read from `published-log.jsonl`, not asserted. The fix behind it is the 20.9 change: the Mac kicks the cloud publisher a few minutes after each slot, and the repository's own cron went from hourly to every ten minutes. **The instrumentation hole reported here on 19.9, where the rescue path deleted a post's text while publishing it, is not fixed. It simply did not fire, because nothing needed rescuing.** That distinction is worth keeping: an untriggered bug is not a closed one.
+
+### The finding: the number was the outage
+
+| Cohort | Published | Age at reading | Day total |
+|---|---|---|---|
+| msgs 115-117 | 16.9, the day after five dark days | 70-78 h | **29** |
+| msgs 136-138 | 23.9, normal service | 70-78 h | **25** |
+| msgs 133-135 | 22.9 | 4.3-4.6 d | 20 |
+| msgs 130-132 | 21.9 | 5.3-5.6 d | 18 |
+| msgs 127-129 | 20.9 | 6.3-6.6 d | 20 |
+
+Two readings at **identical age**, one week apart, same cadence, same slots, and **more** subscribers in the later one: 29 against 25, down. Then the part that settles it. The 16.9 triple held 29 at three days and 35 at 8.5 days. The 20.9 triple holds **20 at 6.4 days**. An older cohort reading below a younger one is precisely what the accrual curve published here on 19.9 says cannot happen for posts drawn from the same distribution.
+
+**Four triples cluster at 18 to 25. One sits at 29 and 35, and it is the one published into a five-day publishing gap.**
+
+This corrects two claims made in this repo:
+- *"29 against 14.3"*, published 19.9 as the evidence that three posts a day beat one on total reach.
+- *"35 against 11 and 23"*, the 25.9 pre-registered read reaching the same conclusion from a larger age.
+
+Both rest on the same outage day. Against the channel's real normal-service total of 18 to 25, the advantage over one-a-day's 14 to 23 per post is thin, and the audience nearly doubled across the window separating the two cohorts, which is enough on its own. **Cadence is unresolved, not settled.** The owner chose three a day on 15.9 with counter-evidence in front of him and nothing here changes that; what changes is what the loop is permitted to claim on his behalf.
+
+The uncomfortable corollary, now sighted twice independently: experiment 5 found this channel gained subscribers fastest in the week it published almost nothing, and week 10 finds its best-reach day was the day after five dark days. **Volume is not what moves this channel, and gaps may help.** Not tested, and deliberately not proposed: testing it means going dark on purpose on a channel the owner asked for consistency on.
+
+### The second finding: a rule voided by a parameter that changed underneath it
+
+The daily instructions say *a news item always takes the earliest free slot, never a slot days out*. Correct and runnable at a buffer target of 2 posts. On 15.9 the owner raised the target to 21, and **in the same message asked for startup and AI-industry news by name**.
+
+With a week-deep queue the earliest free slot is always seven days out. **The news rule became unrunnable the moment the buffer rule changed, and nothing noticed for eleven days.** Measured, not asserted:
+
+- freshest dated source published or queued in that window: **12 days old at its slot**
+- posts tagged `format=story`, against a 17.9 commitment to tag and compare them: **0**
+- consecutive daily runs that skipped the news search and logged the well as "structurally unavailable": **11**, each one correctly naming the queue depth as the cause and none of them calling it a bug
+
+Two of the owner's own requests were in direct conflict and the system resolved it silently in favour of the one that was easier to satisfy. The fix keeps both: the nearest midday slot at least 18 hours out may be overwritten by an item whose source is under 72 hours old, with the displaced post re-queued at the far end. Cadence, slot map, queue depth and the outage guarantee are untouched. Open as experiment 7 to 10.10, with thresholds written in advance, and **it is the first experiment since number 2 whose precondition does not require a human to press send.**
+
+### Writing: no change, and this time because the audit passed
+
+All 21 queued posts read in one pass. The labelled payoff line `Worth it because:` appears **0 times**, down from 6 of 21 before the 19.9 anti-periodicity pass and 3 after it. Question openers: 3 of 21, one in each of the three slots, so the slot alignment banned on 19.9 is gone. **No post was edited this week, the first weekly run since the voice rewrite that did not have to touch the queue.** The rules are being obeyed without intervention.
+
+Views still separate nothing about writing at 36 subscribers across 146 posts. Seventh consecutive report to say so.
+
+### What week 10 measured
+
+Could: that a published number was an artifact of the outage that produced it, and that the loop had built two conclusions on it. That a rule can be correct, present and word-perfect while being arithmetically impossible to execute, because a number somewhere else changed. That delivery is genuinely fixed, at 21 of 21 slots and four-to-sixteen-minute lateness.
+
+Could not: anything about writing, for the seventh consecutive report. And the thing both channels now agree on from independent data: **neither writing nor delivery is the constraint.** Both were repaired this month and the subscriber number moved by three. Distribution remains the only untested variable, nine weeks and six unsent packages in.
