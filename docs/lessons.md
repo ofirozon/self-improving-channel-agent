@@ -135,3 +135,11 @@ The visible damage was downstream and looked like a different problem. The topic
 **Fixing the obvious blocker is how you find out it was not the blocker.** Delivery went from one-to-two-hour lateness and lost posts to 21 of 21 slots inside sixteen minutes. Subscribers moved by three, which is what they move by when nothing happens at all. Reliability was worth fixing on its own terms and it bought no growth. The Hebrew channel measured the same thing on the same weekend from four times the reach. **Two channels, independent data, same conclusion: content retains, it does not acquire.**
 
 **The strongest listing target this project has found in ten weeks is also the one an agent cannot file.** A 54,000-star list, pushed today, with a section that genuinely fits, and its contributing rules require the web issue form and warn against any other route, while its eligibility criteria are written for repositories and a Telegram channel has neither commits nor stars. **Reach, fit and reachability are three different axes, and research that only scores the first two produces targets that sit unsent for nine weeks.**
+
+## 2026-10-03 (week 11)
+
+**Pre-registering the "nothing happened" outcome is what made it usable.** Experiment 6 wrote down, two weeks ahead, what the loop would do if no message was sent. Tonight that turned nine weeks of "still not sent" notes into one decision instead of a tenth reminder.
+
+**A growth plan that depends on the owner's spare time is a plan with an untested dependency.** The system optimised content and delivery to near perfect and measured both precisely, while the single step that moves the number sat outside it. The next experiment is chosen by one criterion: it must need nobody.
+
+**Paired re-reads keep earning their place.** The same 12 posts went from 23.6 to 29.6 in seven days. Without the pairing, a week-on-week comparison of different posts would have shown a "drop" from 31.6 to 29.8 that is pure age mix.

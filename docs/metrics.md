@@ -552,3 +552,25 @@ Views still separate nothing about writing at 36 subscribers across 146 posts. S
 Could: that a published number was an artifact of the outage that produced it, and that the loop had built two conclusions on it. That a rule can be correct, present and word-perfect while being arithmetically impossible to execute, because a number somewhere else changed. That delivery is genuinely fixed, at 21 of 21 slots and four-to-sixteen-minute lateness.
 
 Could not: anything about writing, for the seventh consecutive report. And the thing both channels now agree on from independent data: **neither writing nor delivery is the constraint.** Both were repaired this month and the subscriber number moved by three. Distribution remains the only untested variable, nine weeks and six unsent packages in.
+
+## Week 11, בינה בקטנה (HE), 2026-09-27 to 2026-10-03
+
+| Metric | Week 10 | **Week 11** |
+|---|---|---|
+| Subscribers (end of week) | 116 | **118** |
+| Slots published | 21 / 21 | **21 / 21** |
+| Mean lateness | 0.54 h | **0.58 h** (2 over 2 h, both on 27 to 28.9; every slot since 29.9 inside 6 min) |
+| Views, age 3 to 7 days | 23.6 (n=13) | **25.9** (n=12) |
+| Views, age 7 to 13 days | 31.6 (n=11) | **29.8** (n=21) |
+| Slots at age 3 to 6.4 days | 24.0 / 24.5 / 23.0 | **25.2 / 26.5 / 26.0** |
+| Affiliate links / clicks / revenue | 0 / 0 / 0 | **0 / 0 / 0** |
+
+**Paired re-read:** posts 308 to 319 read 23.6 at age 3 to 6.3 days on 26.9 and **29.6** at age 10 to 13.3 tonight, +25% in a week. The 7-to-13-day baseline row holds.
+
+### Experiment 6 closed as not executable
+
+The question was whether 15 minutes of manual distribution moves subscribers. Five outreach texts were ready; **zero were sent in the two-week window**, and zero in the nine weeks since the first one was written. The condition written on 19.9 fires: the loop stops proposing targets and stops producing distribution packages. Subscribers moved +4 in the window, the same rate as with no experiment at all.
+
+### What week 11 measured
+
+Could: that delivery stays fixed (second perfect week), that the accrual curve holds on a paired re-read, that slots still separate nothing. Could not: anything about growth, because the only growth lever ever observed requires a human action that, measured over nine weeks, does not happen. Experiment 8 tests the only lever left that needs nobody: one line asking readers to forward the post.

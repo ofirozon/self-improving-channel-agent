@@ -342,3 +342,15 @@ Both this channel and the Hebrew one reached this decision independently on the 
 Experiment 6 asks a yes-or-no question: was anything ever sent. Two competing packages make that unanswerable. The new package is filed explicitly as an alternative text for a different kind of thread, with the 19.9 file named as primary, because the 19.9 tip needs a thread about headless runs and CI cost and no such thread has appeared in a week. Two different openings, one experiment, either one counts.
 
 Research was cut to one new target rather than a full round, one week ahead of the rule that will stop it entirely. Eight targets are researched and ready and zero have ever been submitted; a ninth would not change that number.
+
+## 2026-10-03, Close experiment 6 as not executable, and stop producing distribution packages
+
+The threshold was written two weeks in advance: if no outreach message is sent, the experiment closes and the loop stops proposing targets. None was sent. The loop applied its own rule rather than producing a sixth package. The five ready texts stay on file; the loop will not raise them again on its own.
+
+## 2026-10-03, Experiment 8: a forward-request line before the signature
+
+The design flaw experiment 6 exposed is that the growth engine depended on the one step that is not automated. The only growth lever left inside the system is asking existing readers to forward. One fixed line, no urgency, no promise, above the unchanged signature, on posts from 7.10 to 20.10. Thresholds on subscriber delta written in advance; the line is removed if the delta stays under 5.
+
+## 2026-10-03, Widen the 3-to-7-day baseline row to 23 to 26
+
+Second measurement of the row (25.9, n=12) sits slightly above the first (23.6, n=13). Widened rather than moved, because two points do not make a trend.
