@@ -143,3 +143,7 @@ The visible damage was downstream and looked like a different problem. The topic
 **A growth plan that depends on the owner's spare time is a plan with an untested dependency.** The system optimised content and delivery to near perfect and measured both precisely, while the single step that moves the number sat outside it. The next experiment is chosen by one criterion: it must need nobody.
 
 **Paired re-reads keep earning their place.** The same 12 posts went from 23.6 to 29.6 in seven days. Without the pairing, a week-on-week comparison of different posts would have shown a "drop" from 31.6 to 29.8 that is pure age mix.
+
+**A count-based threshold can be closed early; a rate cannot.** Experiment 7 measured "how many fresh posts by day 14" and reached its bar on day 7. A count only goes up, so reading it early changes nothing. The same move on a rate or a ratio would be peeking.
+
+**Fixing the slot exposed the supply.** Once fresh news had somewhere to go, two of the next four eligible runs correctly declined the override because nothing fresh gave a builder something to do. The constraint moved from the scheduler to the world, which is where it should sit.

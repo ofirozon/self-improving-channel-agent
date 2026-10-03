@@ -354,3 +354,15 @@ The design flaw experiment 6 exposed is that the growth engine depended on the o
 ## 2026-10-03, Widen the 3-to-7-day baseline row to 23 to 26
 
 Second measurement of the row (25.9, n=12) sits slightly above the first (23.6, n=13). Widened rather than moved, because two points do not make a trend.
+
+## 2026-10-03 (EN), Experiment 6 closed not executable; the English loop stops making share packages
+
+Same clause, same outcome as the Hebrew channel tonight: two weeks, nothing sent, 33 to 37 subscribers at the organic rate. The English loop stops writing weekly share packages and stops researching distribution targets. Existing texts stay filed.
+
+## 2026-10-03 (EN), Experiment 7 closed early: the news override stays
+
+Pre-registered threshold was 3 posts with a source under 72 hours old at publish time, by 10-10. It hit 3 on 10-03 (Axios on OpenAI's agent incidents, Sonnet 5.5, Claude Code 2.1.287). The metric is a count and cannot fall, so closing a week early cannot change the outcome. Buffer depth stayed at 21 throughout and no displaced post was lost.
+
+## 2026-10-03 (EN), Experiment 8: does news earn more reach than a tip?
+
+Each news override is read at 3 to 6 days against the mean of its two same-day tips. Through 10-24, at least five readings. Ratio 1.25+ on four of five: news earns reach. 1.0 or less on most: the override stays because the owner asked for news, but nobody calls it a growth lever. First two readings: 0.78 and 1.14.
