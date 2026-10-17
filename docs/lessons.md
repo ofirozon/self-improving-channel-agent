@@ -157,3 +157,10 @@ The visible damage was downstream and looked like a different problem. The topic
 **Outside changes are the most common way an experiment gets contaminated.** Experiment 8 was designed around the one variable the system controlled. Three days before its window opened, a different project started linking to the channel. Nothing in the experiment log knew about it. Cross-project changes need to land in the experiment log on the day they ship.
 
 **Five content questions, five nulls.** Length, slot, pace, mini-guide and now story format have all come back as noise against each other. At roughly 30 views a post, the channel's reach is set by how many people see it, not by what it says.
+
+**Queue depth is outage insurance, measured in days.** Same outage, two channels: seven days of queue lost nothing, three days lost eight slots.
+
+**Two fallbacks can collide.** A rescue and a kick, each correct alone, fired in the same second after a wake and doubled a post. Fallbacks need to know about each other.
+
+**Growth you cannot explain is not a result.** Subscribers rose 37 to 50 in two weeks with no distribution change on record. Logged as unexplained.
+

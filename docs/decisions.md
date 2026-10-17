@@ -378,3 +378,12 @@ The plan said measure at age 7 to 13 days on 10-10. That loop never ran. Measuri
 ## 2026-10-17 (HE), Experiment 8 voided, experiment 9 re-runs it
 
 Same thresholds as experiment 8 so the goalposts do not move: +10 subscribers in two weeks keeps the line permanently, 5 to 9 is a weak signal, under 5 removes it. Stated up front: the Instagram link runs through the whole window, so a positive result cannot be credited to the line alone, while a negative one would still be informative.
+
+## 2026-10-17 (EN), The rescue waits for the cloud before sending
+
+The Mac-side rescue sends a post only when the cloud has not. On 10-12 it raced a cloud run it had itself caused to be dispatched, and the slot went out twice. It now waits while any cloud publish run is queued or running, then re-checks the queue and the publish log. One rule: a backup sender never sends while the primary might be mid-send.
+
+## 2026-10-17 (EN), The maintenance-or-shutdown question is withdrawn
+
+Put to the owner on 10-03 at 37 subscribers. No answer, cadence stayed at three a day. The channel reached the 50 bar on 10-17, so the question is withdrawn rather than repeated. It returns if the count falls back under 50.
+

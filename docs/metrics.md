@@ -599,3 +599,26 @@ Five on-time evening stories: **33.4**. Eleven on-time evening tips from the sam
 ### Experiment 8 voided
 
 The forward-this-post line ran from 10-07, but eight lost slots exceeded the pre-registered limit of three, and on 10-04 an unplanned distribution source appeared: the Hebrew Instagram page now links to the channel. Subscribers went 118 to 123, four of the five arriving while the channel was nearly silent. Not interpreted. Re-run as experiment 9 on posts from 10-18 to 10-31.
+
+## Weeks 11 to 13, Claude Code Daily (EN), 2026-09-27 to 2026-10-17
+
+| | Weeks 11 to 13 |
+|---|---|
+| Subscribers | 36 to **50** (+14; +13 since 10-03, source unknown) |
+| Slot posts / missed | 63 / **0** |
+| Duplicates | **1** (10-12 12:00, msgs 194 and 195) |
+| Posts over 2 h late | 2 in week 11, **14** in 10-06 to 10-11 (max 10.2 h), 0 since 10-12 16:00 |
+| Views, 10-03 to 10-05 posts at 12 to 14 days | **10.4** (n=7) |
+| Views, 10-06 to 10-11 posts at 6 to 11 days | **6.6** (n=18) |
+| Views, 10-13 to 10-16 posts at 1 to 4 days | **8.6** (n=12) |
+| Affiliate links / clicks / revenue | 0 / 0 / 0 |
+
+### The deep queue survived the outage the Hebrew channel did not
+The same four-day Mac outage (about 10-08 to 10-11) cost the Hebrew channel eight slots. This channel lost none: its queue holds 21 posts, seven days, so it ran late but never ran dry.
+
+### A duplicate post, from two safety mechanisms firing in the same second
+On wake, the Mac ran its rescue for the 12:00 slot and its cloud kick together. Both sent. The rescue now waits for any running cloud publish job and re-checks before sending.
+
+### Experiment 8, interim
+News posts against same-day tips: 0.78, 1.14, 1.05, 0.92, 1.00. No premium so far. Closes 10-24.
+
