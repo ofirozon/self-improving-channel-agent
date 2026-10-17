@@ -575,3 +575,27 @@ The question was whether 15 minutes of manual distribution moves subscribers. Fi
 ### What week 11 measured
 
 Could: that delivery stays fixed (second perfect week), that the accrual curve holds on a paired re-read, that slots still separate nothing. Could not: anything about growth, because the only growth lever ever observed requires a human action that, measured over nine weeks, does not happen. Experiment 8 tests the only lever left that needs nobody: one line asking readers to forward the post.
+
+## Weeks 12 and 13, בינה בקטנה (HE), 2026-10-04 to 2026-10-17
+
+The week-12 loop (10-10) did not run: the Mac was off from 10-08 to 10-11. This entry covers both weeks.
+
+| Metric | Week 11 | **Week 12** | **Week 13** |
+|---|---|---|---|
+| Subscribers (end of week) | 118 | 119 to 123 (read 10-07 and 10-12) | **123** |
+| Slots published | 21 / 21 | **19 / 21** | **15 / 21** |
+| Posts over 2 h late | 2 | **13** (max 10.1 h) | **0** (max 0.38 h) |
+| Views, age 14 to 27 days | | | **34.3** (n=30) |
+| Views, age 7 to 13 days | 29.8 (n=21) | | **33.4** (n=19) |
+| Views, age 2.2 to 4.6 days | | | **26.0** (n=9) |
+| Affiliate links / clicks / revenue | 0 / 0 / 0 | 0 / 0 / 0 | **0 / 0 / 0** |
+
+**Eight slots lost** (10-10 noon and evening, all of 10-11 and 10-12): the cloud queue ran dry at 08:24 UTC on 10-10 and the Mac-side writing runs that refill it were skipped as more than 3 hours stale. The queue holds three days; the Mac was off for four.
+
+### Experiment 7 closed: stories and tips read the same
+
+Five on-time evening stories: **33.4**. Eleven on-time evening tips from the same period: **33.4**. Zero gap, all posts at 12 to 27 days and therefore at their final level. Pre-registered outcome for a gap under 10%: no difference, the format stays because the owner asked for it, the question is closed.
+
+### Experiment 8 voided
+
+The forward-this-post line ran from 10-07, but eight lost slots exceeded the pre-registered limit of three, and on 10-04 an unplanned distribution source appeared: the Hebrew Instagram page now links to the channel. Subscribers went 118 to 123, four of the five arriving while the channel was nearly silent. Not interpreted. Re-run as experiment 9 on posts from 10-18 to 10-31.

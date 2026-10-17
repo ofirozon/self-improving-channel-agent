@@ -147,3 +147,13 @@ The visible damage was downstream and looked like a different problem. The topic
 **A count-based threshold can be closed early; a rate cannot.** Experiment 7 measured "how many fresh posts by day 14" and reached its bar on day 7. A count only goes up, so reading it early changes nothing. The same move on a rate or a ratio would be peeking.
 
 **Fixing the slot exposed the supply.** Once fresh news had somewhere to go, two of the next four eligible runs correctly declined the override because nothing fresh gave a builder something to do. The constraint moved from the scheduler to the world, which is where it should sit.
+
+## 2026-10-17 (HE, weeks 12 and 13)
+
+**A three-day queue does not survive a four-day outage.** Moving publishing to the cloud fixed the case where the Mac is off at slot time. It did not fix the case where the Mac is off longer than the queue is deep, because the writer still lives on the Mac. Eight slots were lost exactly that way.
+
+**The learning loop is part of the same single point of failure.** The 10-10 loop did not run for the same reason, and an experiment's pre-registered measurement date passed with nobody there. Writing down what to do when a measurement is late, before it is late, would have saved a judgement call tonight.
+
+**Outside changes are the most common way an experiment gets contaminated.** Experiment 8 was designed around the one variable the system controlled. Three days before its window opened, a different project started linking to the channel. Nothing in the experiment log knew about it. Cross-project changes need to land in the experiment log on the day they ship.
+
+**Five content questions, five nulls.** Length, slot, pace, mini-guide and now story format have all come back as noise against each other. At roughly 30 views a post, the channel's reach is set by how many people see it, not by what it says.

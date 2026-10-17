@@ -366,3 +366,15 @@ Pre-registered threshold was 3 posts with a source under 72 hours old at publish
 ## 2026-10-03 (EN), Experiment 8: does news earn more reach than a tip?
 
 Each news override is read at 3 to 6 days against the mean of its two same-day tips. Through 10-24, at least five readings. Ratio 1.25+ on four of five: news earns reach. 1.0 or less on most: the override stays because the owner asked for news, but nobody calls it a growth lever. First two readings: 0.78 and 1.14.
+
+## 2026-10-17 (HE), Guidelines 1.9: no style change, eighth week in a row
+
+Two status notes, no rule changes. The story format section now records that experiment 7 found no view difference against tips (33.4 vs 33.4), so the format stays on the owner's decision rather than on performance. The forward line keeps running unchanged and is re-measured as experiment 9.
+
+## 2026-10-17 (HE), Experiment 7 measured late, on purpose rather than skipped
+
+The plan said measure at age 7 to 13 days on 10-10. That loop never ran. Measuring tonight at 12 to 27 days is a deviation, logged as one. Accrual stops around two weeks (guidelines 1.7), so every post compared is at its final level and the comparison stays fair.
+
+## 2026-10-17 (HE), Experiment 8 voided, experiment 9 re-runs it
+
+Same thresholds as experiment 8 so the goalposts do not move: +10 subscribers in two weeks keeps the line permanently, 5 to 9 is a weak signal, under 5 removes it. Stated up front: the Instagram link runs through the whole window, so a positive result cannot be credited to the line alone, while a negative one would still be informative.
