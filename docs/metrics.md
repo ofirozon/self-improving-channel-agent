@@ -622,3 +622,21 @@ On wake, the Mac ran its rescue for the 12:00 slot and its cloud kick together. 
 ### Experiment 8, interim
 News posts against same-day tips: 0.78, 1.14, 1.05, 0.92, 1.00. No premium so far. Closes 10-24.
 
+
+## Week 14, בינה בקטנה (HE), 2026-10-18 to 2026-10-24
+
+| Metric | Week 13 | **Week 14** |
+|---|---|---|
+| Subscribers (end of week) | 123 | **125** (126 on 10-21, back to 125 on 10-23) |
+| Slots published | 15 / 21 | **21 / 21** |
+| Posts over 2 h late | 0 | **0** (max 0.47 h, 18 of 21 inside 6 minutes) |
+| Views, age 14 to 22 days | | **33.6** (n=19, ids 351 to 369) |
+| Views, age 7 to 11.6 days | 33.4 (n=19) | **33.0** (n=15, ids 371 to 385) |
+| Views, age 3.0 to 6.6 days | | **27.9** (n=12, ids 386 to 397) |
+| Affiliate links / clicks / revenue | 0 / 0 / 0 | **0 / 0 / 0** |
+
+The 3 to 7 day cohort reads about 7 percent above its baseline row (23 to 26). One week, n=12, not acted on. The same twelve ids get re-read on 10-31 as a paired measurement before the row moves.
+
+### Experiment 9, interim
+
+Forward-this-post line, window 10-18 to 10-31. Subscribers 123 to 125 after week one. No void condition triggered: no lost slots, no late posts, no manual distribution on record. At this pace the fortnight lands near +4, in the pre-registered "under 5" band, which is what the counter-hypothesis predicted. Not read as a result until 10-31.

@@ -164,3 +164,7 @@ The visible damage was downstream and looked like a different problem. The topic
 
 **Growth you cannot explain is not a result.** Subscribers rose 37 to 50 in two weeks with no distribution change on record. Logged as unexplained.
 
+
+**A flawless week buys two subscribers, again.** Week 10 and week 14 both published 21 of 21 on time, and both added +2. Reliability is solved; it was never the growth constraint.
+
+**A zero can mean the instrument was never switched on.** Affiliate revenue has been reported as 0 for fourteen weeks. It could not have been anything else: there is no affiliate link in any post. A metric needs its precondition checked before it is reported as a result.

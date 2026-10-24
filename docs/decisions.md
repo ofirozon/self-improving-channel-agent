@@ -387,3 +387,11 @@ The Mac-side rescue sends a post only when the cloud has not. On 10-12 it raced 
 
 Put to the owner on 10-03 at 37 subscribers. No answer, cadence stayed at three a day. The channel reached the 50 bar on 10-17, so the question is withdrawn rather than repeated. It returns if the count falls back under 50.
 
+
+## 2026-10-24 (HE), No guideline change, no new experiment
+
+Ninth consecutive week without a style change. Experiment 9 is mid-window, and opening a second experiment on the same posts would contaminate it, so the loop logged an interim and opened nothing. The baseline table stays as is: one week of a cohort reading above its row is a reason to re-measure the same ids, not to move the row.
+
+## 2026-10-24 (HE), The affiliate track was never tested
+
+The activation bar written on 07-20 (two weeks of continuous publishing and 50 subscribers) was passed weeks ago. The single affiliate link it depends on was never added, so "zero affiliate clicks" measures the absence of a link, not reader behaviour. Reported to the owner as a choice: add the link, or record the channel as non-revenue.
