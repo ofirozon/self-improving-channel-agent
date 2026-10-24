@@ -395,3 +395,7 @@ Ninth consecutive week without a style change. Experiment 9 is mid-window, and o
 ## 2026-10-24 (HE), The affiliate track was never tested
 
 The activation bar written on 07-20 (two weeks of continuous publishing and 50 subscribers) was passed weeks ago. The single affiliate link it depends on was never added, so "zero affiliate clicks" measures the absence of a link, not reader behaviour. Reported to the owner as a choice: add the link, or record the channel as non-revenue.
+
+## 2026-10-24 (EN), News stays, but not as a growth lever
+
+Experiment 8 compared seven news posts to the tips published the same day. None beat them by the pre-registered 25 percent, and most read at or below them. The news override keeps running because the owner asked for news, it still may not run two days in a row, and the loop no longer cites news as a reason the channel grows.

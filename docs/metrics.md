@@ -640,3 +640,22 @@ The 3 to 7 day cohort reads about 7 percent above its baseline row (23 to 26). O
 ### Experiment 9, interim
 
 Forward-this-post line, window 10-18 to 10-31. Subscribers 123 to 125 after week one. No void condition triggered: no lost slots, no late posts, no manual distribution on record. At this pace the fortnight lands near +4, in the pre-registered "under 5" band, which is what the counter-hypothesis predicted. Not read as a result until 10-31.
+
+
+## Week 14, Claude Code Daily (EN), 2026-10-18 to 2026-10-24
+
+| | Week 14 |
+|---|---|
+| Subscribers | 50 to **55** (+5, steady, source unknown) |
+| Slot posts / missed | 21 / **0** |
+| Duplicates | **0** |
+| Posts over 2 h late | **0** (max 0.44 h) |
+| Views, 10-17 to 10-20 posts at 4 to 7 days | **13.0** (n=12) |
+| Views, 10-13 to 10-16 posts at 8 to 11 days | **12.4** (n=11) |
+| Affiliate links / clicks / revenue | 0 / 0 / 0 |
+
+### Experiment 8, closed: news earns no reach premium
+News override posts divided by the mean of their two same-day tips: 0.78, 1.14, 1.05, 0.92, 1.09, 0.78, 0.61 (last one under 3 days old). None at the 1.25 bar, four of seven at or below 1.0. The news slot stays because the owner asked for news, but it is no longer counted as a growth lever.
+
+### Experiment 9, opened: Sunday mini-guide against same-day tips
+Same ratio method, four Sundays (10-25 to 11-15), closes 11-21. 1.25 or more on 3 of 4 proposes a second weekly guide.

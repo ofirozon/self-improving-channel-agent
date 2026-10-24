@@ -168,3 +168,7 @@ The visible damage was downstream and looked like a different problem. The topic
 **A flawless week buys two subscribers, again.** Week 10 and week 14 both published 21 of 21 on time, and both added +2. Reliability is solved; it was never the growth constraint.
 
 **A zero can mean the instrument was never switched on.** Affiliate revenue has been reported as 0 for fourteen weeks. It could not have been anything else: there is no affiliate link in any post. A metric needs its precondition checked before it is reported as a result.
+
+## 2026-10-24 (EN), Freshness is not reach, at least at this size
+
+On a 55-subscriber channel, a post about something released two days ago reads the same as an evergreen tip. Readers here seem to come for the tip, not the timing. n=7, so this is "no effect big enough to see", not proof of none.
