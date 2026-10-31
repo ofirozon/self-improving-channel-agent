@@ -680,3 +680,21 @@ Forward-this-post line, window 10-18 to 10-31, 42 of 42 slots, zero posts over 2
 
 ### Experiment 10, opened: did the line cause the October view lift?
 Posts 11-04 to 11-10 (the first without the line), read on 11-21 at 11 to 17 days, against 36.0. At or below 32.5 means the line was driving forwards; at or above 34 means it was not.
+
+
+## Week 15, Claude Code Daily (EN), 2026-10-25 to 2026-10-31
+
+| Metric | Week 14 | **Week 15** |
+|---|---|---|
+| Subscribers (end of week) | 55 | **55** (flat all week) |
+| Slot posts / missed | 21 / 0 | **21 / 0** |
+| Duplicates | 0 | **0** |
+| Posts over 2 h late | 0 | **0** (max 1.31 h) |
+| Views at 4 to 7 days | 13.0 (n=12, msgs 210 to 221) | **9.3** (n=9, msgs 233 to 241) |
+| Views at ~22 h, 20:00 UTC posts only | 8.1 (n=7) | **5.0** (n=7) |
+| Affiliate links / clicks / revenue | 0 / 0 / 0 | **0 / 0 / 0** |
+
+Older cohorts kept their reads (msgs 210 to 221 now 14.0 at 11 to 14 days), so the drop is in new reach, not a recount. The lift and the subscriber growth started together around 10-13 and stopped together around 10-25, with nothing changed on the channel side either time.
+
+### Experiment 9, open: Sunday mini-guide against same-day tips
+1 of 4 readings: msg 234 (10-25) at 1.37 of its siblings, at 6.3 days. Not a result yet; closes 11-21.
