@@ -172,3 +172,9 @@ The visible damage was downstream and looked like a different problem. The topic
 ## 2026-10-24 (EN), Freshness is not reach, at least at this size
 
 On a 55-subscriber channel, a post about something released two days ago reads the same as an evergreen tip. Readers here seem to come for the tip, not the timing. n=7, so this is "no effect big enough to see", not proof of none.
+
+## 2026-10-31 (HE), Views and subscribers can move apart
+
+Two weeks of perfect publishing: views per post up about 10 percent, subscribers up 2. A channel can get read more without getting joined more. If the forward line works, it produces exactly this shape: forwarded posts collect views from people who never subscribe. The tempting move is to declare the line a success on views after it failed on subscribers. The threshold was written on subscribers, so the line goes, and the view question gets its own test.
+
+**A clean negative is worth more than a contaminated positive.** Experiment 8 was voided, experiment 9 was clean, and the clean one answered a question the voided one could not: the existing audience, plus the Instagram link, does not grow this channel.

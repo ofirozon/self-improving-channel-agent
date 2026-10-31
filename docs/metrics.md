@@ -659,3 +659,24 @@ News override posts divided by the mean of their two same-day tips: 0.78, 1.14, 
 
 ### Experiment 9, opened: Sunday mini-guide against same-day tips
 Same ratio method, four Sundays (10-25 to 11-15), closes 11-21. 1.25 or more on 3 of 4 proposes a second weekly guide.
+
+
+## Week 15, בינה בקטנה (HE), 2026-10-25 to 2026-10-31
+
+| Metric | Week 14 | **Week 15** |
+|---|---|---|
+| Subscribers (end of week) | 125 | **125** (flat all week) |
+| Slots published | 21 / 21 | **21 / 21** |
+| Posts over 2 h late | 0 | **0** (max 1.09 h, 15 of 21 inside 6 minutes) |
+| Views, age 14 to 20 days | 33.6 (n=19) | **35.8** (n=15, ids 371 to 385) |
+| Views, age 7 to 13.6 days | 33.0 (n=15) | **36.0** (n=21, ids 386 to 406) |
+| Views, age 3.0 to 6.6 days | 27.9 (n=12) | **28.8** (n=12, ids 407 to 418) |
+| Affiliate links / clicks / revenue | 0 / 0 / 0 | **0 / 0 / 0** |
+
+Paired re-read: ids 386 to 397 went from 27.9 to 35.3, ids 371 to 385 from 33.0 to 35.8. Two consecutive weeks above the old table in every mature age row, so the baseline table moved up about 10 percent (guidelines v2.0).
+
+### Experiment 9, closed: under the bar
+Forward-this-post line, window 10-18 to 10-31, 42 of 42 slots, zero posts over 2 h late, no manual distribution. Subscribers 123 to **125**, +2 against a pre-registered bar of 5. The line is removed.
+
+### Experiment 10, opened: did the line cause the October view lift?
+Posts 11-04 to 11-10 (the first without the line), read on 11-21 at 11 to 17 days, against 36.0. At or below 32.5 means the line was driving forwards; at or above 34 means it was not.

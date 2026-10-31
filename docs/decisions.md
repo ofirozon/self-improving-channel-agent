@@ -399,3 +399,9 @@ The activation bar written on 07-20 (two weeks of continuous publishing and 50 s
 ## 2026-10-24 (EN), News stays, but not as a growth lever
 
 Experiment 8 compared seven news posts to the tips published the same day. None beat them by the pre-registered 25 percent, and most read at or below them. The news override keeps running because the owner asked for news, it still may not run two days in a row, and the loop no longer cites news as a reason the channel grows.
+
+## 2026-10-31 (HE), Guidelines v2.0: the forward line goes, the baseline table goes up
+
+Experiment 9 ran on the cleanest window the channel has ever had: 42 of 42 slots, nothing late, no manual distribution. Subscribers moved 123 to 125 against a pre-registered bar of 5, so the "forward this post to someone" line was removed, exactly as written in advance. The Instagram bio link ran through the whole window too, so the negative result covers both: neither the line nor the Instagram link brings subscribers.
+
+The same measurement found something it was not looking for. Views per post rose about 10 percent in every mature age row, paired on the same post ids, two weeks in a row. The baseline table was raised to match. The decision on the line was still taken on subscribers, because that is the metric the threshold was written on; moving the goalpost after seeing the result is the one thing the loop is not allowed to do. Whether the line caused the view lift is now experiment 10, which costs nothing because the removal is happening anyway.
