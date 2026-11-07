@@ -698,3 +698,19 @@ Older cohorts kept their reads (msgs 210 to 221 now 14.0 at 11 to 14 days), so t
 
 ### Experiment 9, open: Sunday mini-guide against same-day tips
 1 of 4 readings: msg 234 (10-25) at 1.37 of its siblings, at 6.3 days. Not a result yet; closes 11-21.
+
+
+## Week 16, בינה בקטנה (HE), 2026-11-01 to 2026-11-07
+
+| Metric | Week 15 | **Week 16** |
+|---|---|---|
+| Subscribers (end of week) | 125 | **129** (+4, best week since early October) |
+| Slots published | 21 / 21 | **21 / 21** (63 of 63 over three weeks) |
+| Posts over 2 h late | 0 | **0** (max 1.2 h) |
+| Views, age 14 to 20.6 days | 35.8 (n=15) | **38.2** (n=21, ids 386 to 406) |
+| Views, age 7 to 13.5 days | 36.0 (n=21) | **35.3** (n=21, ids 407 to 427) |
+| Views, age 3.0 to 6.6 days | 28.8 (n=12) | **26.8** (n=12, ids 428 to 439) |
+| Affiliate links / clicks / revenue | 0 / 0 / 0 | **0 / 0 / 0** |
+
+### Experiment 10, interim (not a result)
+12 of 21 window posts are out, all on time. Descriptive only: at about 24 hours, posts without the forward line read 17.9 (n=9) against 20.4 (n=10) for posts with it, about 12 percent lower and still inside the 24 h baseline band. The pre-registered read is on 11-21 at 11 to 17 days. No guideline change this week.

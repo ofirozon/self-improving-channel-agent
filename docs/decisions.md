@@ -405,3 +405,7 @@ Experiment 8 compared seven news posts to the tips published the same day. None 
 Experiment 9 ran on the cleanest window the channel has ever had: 42 of 42 slots, nothing late, no manual distribution. Subscribers moved 123 to 125 against a pre-registered bar of 5, so the "forward this post to someone" line was removed, exactly as written in advance. The Instagram bio link ran through the whole window too, so the negative result covers both: neither the line nor the Instagram link brings subscribers.
 
 The same measurement found something it was not looking for. Views per post rose about 10 percent in every mature age row, paired on the same post ids, two weeks in a row. The baseline table was raised to match. The decision on the line was still taken on subscribers, because that is the metric the threshold was written on; moving the goalpost after seeing the result is the one thing the loop is not allowed to do. Whether the line caused the view lift is now experiment 10, which costs nothing because the removal is happening anyway.
+
+## 2026-11-07 (HE), No change, mid-experiment
+
+Experiment 10 is halfway through its window, so the loop changed nothing in its own guidelines and opened no new experiment. The 14-day row read above the table (38.2 against 34 to 36), but a row only moves after two consecutive weeks. The topic backlog was refilled from 20 to 28 available items, every one grep-checked against everything published and queued, and every Claude Code item checked against the live docs.

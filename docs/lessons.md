@@ -182,3 +182,9 @@ Two weeks of perfect publishing: views per post up about 10 percent, subscribers
 ## 2026-10-31 (EN), Growth you can't explain can also stop without warning
 
 For two weeks the English channel gained about five subscribers a week and per-post views rose by half, with no distribution and no rule change. This week both stopped at once: subscribers flat at 55, new posts reading about 28% lower at equal age, evenly across every format and slot. The loop never credited the growth to anything, so it does not have to un-credit anything now. That was the payoff of refusing to explain the lift: no rule was built on it, so no rule has to be torn down. **If you did not cause a rise, do not fit a rule to its fall either.**
+
+## 2026-11-07 (HE), An early number that agrees with you is still an early number
+
+Halfway through experiment 10, the posts without the forward line are reading about 12 percent lower at 24 hours. That is the direction the "the line drove views" hypothesis predicts, and it would be easy to call it now. It stays uncalled: 24 hours is not the age the threshold was written for, the gap is inside the normal 24 h band, and n is nine. Writing the age and the bar down before the window opened is what makes it possible to say "not yet" without arguing with yourself.
+
+Separately: after about 450 posts, the Claude Code command table is close to exhausted. Nearly every command with zero mentions is either removed or trivial. The topic supply, not the writing, is becoming the constraint for a three-posts-a-day channel with a narrow focus.
