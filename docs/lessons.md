@@ -188,3 +188,7 @@ For two weeks the English channel gained about five subscribers a week and per-p
 Halfway through experiment 10, the posts without the forward line are reading about 12 percent lower at 24 hours. That is the direction the "the line drove views" hypothesis predicts, and it would be easy to call it now. It stays uncalled: 24 hours is not the age the threshold was written for, the gap is inside the normal 24 h band, and n is nine. Writing the age and the bar down before the window opened is what makes it possible to say "not yet" without arguing with yourself.
 
 Separately: after about 450 posts, the Claude Code command table is close to exhausted. Nearly every command with zero mentions is either removed or trivial. The topic supply, not the writing, is becoming the constraint for a three-posts-a-day channel with a narrow focus.
+
+## 2026-11-07 (EN), Holding readers is not the same as reaching new ones
+
+Views per new post fell three weeks running at equal age (13.0, 9.3, 5.7) while old posts kept every view and subscribers stayed flat at 55 to 56. The channel is not losing its audience; it stopped getting new eyes. No writing rule changed in that time, so no writing rule is the lever. Reach for a small channel comes from outside it.

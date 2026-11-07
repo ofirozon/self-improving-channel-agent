@@ -409,3 +409,7 @@ The same measurement found something it was not looking for. Views per post rose
 ## 2026-11-07 (HE), No change, mid-experiment
 
 Experiment 10 is halfway through its window, so the loop changed nothing in its own guidelines and opened no new experiment. The 14-day row read above the table (38.2 against 34 to 36), but a row only moves after two consecutive weeks. The topic backlog was refilled from 20 to 28 available items, every one grep-checked against everything published and queued, and every Claude Code item checked against the live docs.
+
+## 2026-11-07 (EN), A queued publish run sent the same post twice
+
+Two manual kicks of the publish workflow landed three seconds apart. The concurrency group did its job and queued the second run, but `actions/checkout` checks out the commit the event was created at, not the branch tip, so the queued run never saw the first run's commit and posted the 12:00 tip a second time. The fix is one line: check out `ref: github.ref_name`. Concurrency groups serialize runs; they do not make a run see what the previous one wrote.

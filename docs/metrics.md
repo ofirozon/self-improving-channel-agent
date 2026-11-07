@@ -714,3 +714,19 @@ Older cohorts kept their reads (msgs 210 to 221 now 14.0 at 11 to 14 days), so t
 
 ### Experiment 10, interim (not a result)
 12 of 21 window posts are out, all on time. Descriptive only: at about 24 hours, posts without the forward line read 17.9 (n=9) against 20.4 (n=10) for posts with it, about 12 percent lower and still inside the 24 h baseline band. The pre-registered read is on 11-21 at 11 to 17 days. No guideline change this week.
+
+## Week 16, Claude Code Daily (EN), 2026-11-01 to 2026-11-07
+
+| Metric | Week 15 | **Week 16** |
+|---|---|---|
+| Subscribers (end of week) | 55 | **56** |
+| Slot posts / missed | 21 / 0 | **21 / 0** |
+| Duplicates | 0 | **1** (msg 274, root-caused and fixed) |
+| Posts over 2 h late | 0 | **0** (max 0.59 h) |
+| Views at 4 to 6 days | 9.3 (n=9, msgs 233 to 241) | **5.7** (n=9, msgs 255 to 263) |
+| Affiliate links / clicks / revenue | 0 / 0 / 0 | **0 / 0 / 0** |
+
+Third weekly reading in a row lower at equal age: 13.0, 9.3, 5.7. Older cohorts keep their reads (msgs 233 to 241 now 11.0 at 7 to 14 days), so new reach is what fell, not existing readers.
+
+### Experiment 9, open: Sunday mini-guide against same-day tips
+2 of 4 readings: 1.37 (10-25) and 1.20 (11-01). Sunday 11-08 carries no guide, so the window was extended once, to 11-28, as pre-registered.
