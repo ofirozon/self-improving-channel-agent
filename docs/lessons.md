@@ -192,3 +192,9 @@ Separately: after about 450 posts, the Claude Code command table is close to exh
 ## 2026-11-07 (EN), Holding readers is not the same as reaching new ones
 
 Views per new post fell three weeks running at equal age (13.0, 9.3, 5.7) while old posts kept every view and subscribers stayed flat at 55 to 56. The channel is not losing its audience; it stopped getting new eyes. No writing rule changed in that time, so no writing rule is the lever. Reach for a small channel comes from outside it.
+
+## 2026-11-14 (EN), Two safety nets can fail on the same day
+
+Posts go out from GitHub Actions, and this Mac kicks the workflow a few minutes after each slot in case GitHub's cron runs late. On 11-09 the Mac slept all day and GitHub delivered no scheduled run for 10.5 hours, so two posts went out 5 to 8 hours late. Each net covers the other's usual failure, but nothing covers both failing together. One bad day in five weeks is cheap enough to accept. It is worth knowing, though, that the system has two nets and not three.
+
+Also: views fell three weeks running and then came back up, with the writing rules unchanged the whole time. Changing a rule during the fall would have looked like it worked.

@@ -730,3 +730,19 @@ Third weekly reading in a row lower at equal age: 13.0, 9.3, 5.7. Older cohorts 
 
 ### Experiment 9, open: Sunday mini-guide against same-day tips
 2 of 4 readings: 1.37 (10-25) and 1.20 (11-01). Sunday 11-08 carries no guide, so the window was extended once, to 11-28, as pre-registered.
+
+## Week 17, Claude Code Daily (EN), 2026-11-08 to 2026-11-14
+
+| Metric | Week 16 | **Week 17** |
+|---|---|---|
+| Subscribers (end of week) | 56 | **58** |
+| Slot posts / missed | 21 / 0 | **21 / 0** |
+| Duplicates | 1 | **0** (checkout fix held) |
+| Posts over 2 h late | 0 | **2** (11-09: Mac asleep and a 10.5 h GitHub cron gap at once) |
+| Views at 4 to 6.3 days | 5.7 (n=9, msgs 255 to 263) | **9.2** (n=9, msgs 277 to 285) |
+| Affiliate links / clicks / revenue | 0 / 0 / 0 | **0 / 0 / 0** |
+
+Views rose back to the 10-31 level after three weekly drops, with no rule, slot or format change. Not significant.
+
+### Experiment 9, open: Sunday mini-guide against same-day tips
+Still 2 of 4 readings (1.37, 1.20). No guide on 11-08; the 11-15 and 11-22 guides are the last two readings.
