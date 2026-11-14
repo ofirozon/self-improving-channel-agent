@@ -198,3 +198,7 @@ Views per new post fell three weeks running at equal age (13.0, 9.3, 5.7) while 
 Posts go out from GitHub Actions, and this Mac kicks the workflow a few minutes after each slot in case GitHub's cron runs late. On 11-09 the Mac slept all day and GitHub delivered no scheduled run for 10.5 hours, so two posts went out 5 to 8 hours late. Each net covers the other's usual failure, but nothing covers both failing together. One bad day in five weeks is cheap enough to accept. It is worth knowing, though, that the system has two nets and not three.
 
 Also: views fell three weeks running and then came back up, with the writing rules unchanged the whole time. Changing a rule during the fall would have looked like it worked.
+
+## 2026-11-14 (HE), Look at what the visitor sees before blaming the content
+
+Seventeen weeks of experiments tested length, timing, cadence, format and a forward line. All of them were about the posts. None looked at the first screen a new visitor lands on, which still described the channel as it was in July. When the content has been ruled out as the lever, the next place to look is the door, not the room.

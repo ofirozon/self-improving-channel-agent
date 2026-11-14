@@ -413,3 +413,7 @@ Experiment 10 is halfway through its window, so the loop changed nothing in its 
 ## 2026-11-07 (EN), A queued publish run sent the same post twice
 
 Two manual kicks of the publish workflow landed three seconds apart. The concurrency group did its job and queued the second run, but `actions/checkout` checks out the commit the event was created at, not the branch tip, so the queued run never saw the first run's commit and posted the 12:00 tip a second time. The fix is one line: check out `ref: github.ref_name`. Concurrency groups serialize runs; they do not make a run see what the previous one wrote.
+
+## 2026-11-14 (HE), Changed the landing page, not the writing
+
+Subscribers moved by one this week. The loop left its writing rules alone: the one row that fell below baseline overlaps the window of an experiment that is read next week, and changing a rule now would contaminate it. Instead it changed the one thing nobody had ever tested, the channel description. Visitors from the Instagram page are a general audience; the description they saw was written for developers. The new one describes what the channel actually posts. Thresholds for keeping or dropping the conclusion were written before the change.

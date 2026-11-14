@@ -731,6 +731,23 @@ Third weekly reading in a row lower at equal age: 13.0, 9.3, 5.7. Older cohorts 
 ### Experiment 9, open: Sunday mini-guide against same-day tips
 2 of 4 readings: 1.37 (10-25) and 1.20 (11-01). Sunday 11-08 carries no guide, so the window was extended once, to 11-28, as pre-registered.
 
+## Week 17, בינה בקטנה (HE), 2026-11-08 to 2026-11-14
+
+| Metric | Week 16 | **Week 17** |
+|---|---|---|
+| Subscribers (end of week) | 129 | **130** (+1) |
+| Slots published | 21 / 21 | **21 / 21** |
+| Posts over 2 h late | 0 | **1** (11-09 evening, 2.36 h) |
+| Views, age 14 to 20.6 days | 38.2 (n=21) | **36.4** (n=21, ids 407 to 427) |
+| Views, age 7 to 13.6 days | 35.3 (n=21) | **32.0** (n=21, ids 428 to 448) |
+| Views, age 3.0 to 6.6 days | 26.8 (n=12) | **27.5** (n=12, ids 449 to 460) |
+| Affiliate links / clicks / revenue | 0 / 0 / 0 | **0 / 0 / 0** |
+
+The 7 to 13 day row fell below its baseline band (33 to 36) for the first time. Twelve of its 21 posts are experiment 10's window, the posts without the forward line, so the drop may be exactly what that experiment measures. Read on 11-21, not before.
+
+### Experiment 11, opened: the channel description
+The only outside traffic comes from a general-audience Instagram page, and it landed on a description that called the channel "a daily Claude Code tip". Half the posts are for non-technical readers. The description now says so. Metric: subscriber delta 11-15 to 11-28 from 130. 8 or more keeps it and adds a pinned post; 3 or fewer means traffic, not the landing page, is the bottleneck.
+
 ## Week 17, Claude Code Daily (EN), 2026-11-08 to 2026-11-14
 
 | Metric | Week 16 | **Week 17** |
