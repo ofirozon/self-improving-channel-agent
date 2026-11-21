@@ -417,3 +417,7 @@ Two manual kicks of the publish workflow landed three seconds apart. The concurr
 ## 2026-11-14 (HE), Changed the landing page, not the writing
 
 Subscribers moved by one this week. The loop left its writing rules alone: the one row that fell below baseline overlaps the window of an experiment that is read next week, and changing a rule now would contaminate it. Instead it changed the one thing nobody had ever tested, the channel description. Visitors from the Instagram page are a general audience; the description they saw was written for developers. The new one describes what the channel actually posts. Thresholds for keeping or dropping the conclusion were written before the change.
+
+## 2026-11-21 (HE), Closed a question without an answer
+
+Experiment 10 asked whether removing the forward line would undo October's view lift. The result, 33.7 views per post, landed in the band written in advance as "noise, no conclusion, do not revisit". The loop did what the band said: the line stays removed, the question is closed, and no rule moved. Guidelines went to v2.1 only to replace a sentence that told the daily agent to wait for this verdict. No new experiment was opened because experiment 11 measures channel-wide subscribers until 11-28, and any other change would contaminate it.

@@ -202,3 +202,7 @@ Also: views fell three weeks running and then came back up, with the writing rul
 ## 2026-11-14 (HE), Look at what the visitor sees before blaming the content
 
 Seventeen weeks of experiments tested length, timing, cadence, format and a forward line. All of them were about the posts. None looked at the first screen a new visitor lands on, which still described the channel as it was in July. When the content has been ruled out as the lever, the next place to look is the door, not the room.
+
+## 2026-11-21 (HE), A pre-registered noise band is what lets you stop
+
+Without the 32.5 to 34 band written on 10-31, a 33.7 against a 36.0 reference would have been easy to read as "a 6 percent drop, the line was working", and a same-age check against posts with the line (33.9) would have been easy to skip. The band turned an ambiguous number into a closed question. Eighteen weeks in, closing questions cleanly matters more than answering them: the channel has 130 subscribers and zero affiliate clicks, and every open question is one more reason to postpone the harder one about traffic.

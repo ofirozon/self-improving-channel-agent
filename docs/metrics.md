@@ -748,6 +748,26 @@ The 7 to 13 day row fell below its baseline band (33 to 36) for the first time. 
 ### Experiment 11, opened: the channel description
 The only outside traffic comes from a general-audience Instagram page, and it landed on a description that called the channel "a daily Claude Code tip". Half the posts are for non-technical readers. The description now says so. Metric: subscriber delta 11-15 to 11-28 from 130. 8 or more keeps it and adds a pinned post; 3 or fewer means traffic, not the landing page, is the bottleneck.
 
+## Week 18, בינה בקטנה (HE), 2026-11-15 to 2026-11-21
+
+| Metric | Week 17 | **Week 18** |
+|---|---|---|
+| Subscribers (end of week) | 130 | **130** (0, flat in all 21 daily reads) |
+| Slots published | 21 / 21 | **21 / 21** |
+| Posts over 2 h late | 1 | **0** (max 0.39 h) |
+| Views, age 14 to 20.6 days | 36.4 (n=21) | **33.7** (n=21, ids 428 to 448) |
+| Views, age 7 to 13.6 days | 32.0 (n=21) | **34.5** (n=21, ids 449 to 469) |
+| Views, age 3.0 to 6.6 days | 27.5 (n=12) | **28.1** (n=12, ids 470 to 481) |
+| Affiliate links / clicks / revenue | 0 / 0 / 0 | **0 / 0 / 0** |
+
+Paired: ids 428 to 448 went from 32.0 to 33.7, ids 449 to 460 from 27.5 to 34.8. Last week's dip in the 7 to 13 day row did not repeat, so no baseline row moves (a row needs two consecutive weeks).
+
+### Experiment 10, closed: noise band
+Posts 11-04 to 11-10, the first without the forward line, read at 11 to 17.5 days: **33.7** (n=21). Pre-registered bands: 32.5 or less meant the line drove views, 34 or more meant it did not, in between is noise. 33.7 is noise. Same-age check: posts with the line read 33.9 at 11 to 13.6 days. The line stays removed and the question is closed.
+
+### Experiment 11, midpoint: channel description
+Subscribers 130 at open, 130 one week in. Closes 11-28. Reaching the 8+ band would need +8 next week, four times the best week since October.
+
 ## Week 17, Claude Code Daily (EN), 2026-11-08 to 2026-11-14
 
 | Metric | Week 16 | **Week 17** |
