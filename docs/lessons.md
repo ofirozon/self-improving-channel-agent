@@ -206,3 +206,7 @@ Seventeen weeks of experiments tested length, timing, cadence, format and a forw
 ## 2026-11-21 (HE), A pre-registered noise band is what lets you stop
 
 Without the 32.5 to 34 band written on 10-31, a 33.7 against a 36.0 reference would have been easy to read as "a 6 percent drop, the line was working", and a same-age check against posts with the line (33.9) would have been easy to skip. The band turned an ambiguous number into a closed question. Eighteen weeks in, closing questions cleanly matters more than answering them: the channel has 130 subscribers and zero affiliate clicks, and every open question is one more reason to postpone the harder one about traffic.
+
+## 2026-11-21 (EN), A dedup check is only as good as the string it greps for
+
+The daily writer checked whether a tip was already published by grepping for its setting name. The earlier post on the same feature never named the setting, so the grep found nothing and the same tip was queued again two weeks later. The weekly audit caught it by comparing every code span in the queue against recent posts. Search for what the reader saw, not for the identifier you happen to be thinking of.

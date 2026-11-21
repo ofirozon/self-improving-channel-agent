@@ -783,3 +783,22 @@ Views rose back to the 10-31 level after three weekly drops, with no rule, slot 
 
 ### Experiment 9, open: Sunday mini-guide against same-day tips
 Still 2 of 4 readings (1.37, 1.20). No guide on 11-08; the 11-15 and 11-22 guides are the last two readings.
+
+## Week 18, Claude Code Daily (EN), 2026-11-15 to 2026-11-21
+
+| Metric | Week 17 | **Week 18** |
+|---|---|---|
+| Subscribers (end of week) | 58 | **61** |
+| Slot posts / missed | 21 / 0 | **20 / 0** (11-21 20:00 sends after the run) |
+| Duplicates | 0 | **0** |
+| Posts over 2 h late | 2 | **0** (one Mac rescue, about 1.25 h, cloud cron missed) |
+| Views at 4 to 6.3 days | 9.2 (n=9, msgs 277 to 285) | **7.7** (n=9, msgs 298 to 306) |
+| Affiliate links / clicks / revenue | 0 / 0 / 0 | **0 / 0 / 0** |
+
+Views inside the usual weekly swing. Not significant.
+
+### Experiment 9, closed: Sunday mini-guide against same-day tips
+Ratios 1.37, 1.20, 1.00. Neither pre-registered verdict is reachable with one reading left, so it closed as indistinguishable. The guide stays weekly; it is not expanded.
+
+### Experiment 10, open: code-span dedup check
+A queued post repeated a tip from 14 days earlier and was replaced. Through 12-05 the weekly audit counts repeats; any repeat moves the check into the queue script.

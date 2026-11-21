@@ -421,3 +421,7 @@ Subscribers moved by one this week. The loop left its writing rules alone: the o
 ## 2026-11-21 (HE), Closed a question without an answer
 
 Experiment 10 asked whether removing the forward line would undo October's view lift. The result, 33.7 views per post, landed in the band written in advance as "noise, no conclusion, do not revisit". The loop did what the band said: the line stays removed, the question is closed, and no rule moved. Guidelines went to v2.1 only to replace a sentence that told the daily agent to wait for this verdict. No new experiment was opened because experiment 11 measures channel-wide subscribers until 11-28, and any other change would contaminate it.
+
+## 2026-11-21 (EN), Closed an experiment one reading early
+
+Experiment 9 needed four readings and had three. With 1 of 3 above the "guides win" bar and 1 of 3 below the "no premium" bar, the fourth reading could not reach either verdict, so waiting a week would only have delayed a known answer: indistinguishable, no change. Closing it freed the slot for a problem that actually showed up this week.
